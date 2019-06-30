@@ -10,3 +10,8 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.idea
+.DS_Store
+_ide_helper.php
+storage/logs/*.log
+/public/uploads/
