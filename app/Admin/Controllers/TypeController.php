@@ -15,7 +15,7 @@ class TypeController extends AdminController
      *
      * @var string
      */
-    protected $title = 'App\Type';
+    protected $title = '产品分类';
 
     /**
      * Make a grid builder.
@@ -27,9 +27,9 @@ class TypeController extends AdminController
         $grid = new Grid(new Type);
 
         $grid->column('id', __('Id'));
-        $grid->column('name', __('Name'));
-        $grid->column('created_at', __('Created at'));
-        $grid->column('updated_at', __('Updated at'));
+        $grid->column('name', __('分类名称'))->editable();
+        $grid->column('created_at', __('创建时间'));
+        $grid->column('updated_at', __('更新时间'));
 
         return $grid;
     }
@@ -45,9 +45,9 @@ class TypeController extends AdminController
         $show = new Show(Type::findOrFail($id));
 
         $show->field('id', __('Id'));
-        $show->field('name', __('Name'));
-        $show->field('created_at', __('Created at'));
-        $show->field('updated_at', __('Updated at'));
+        $show->field('name', __('分类名称'));
+        $show->field('created_at', __('创建时间'));
+        $show->field('updated_at', __('更新时间'));
 
         return $show;
     }
@@ -61,7 +61,7 @@ class TypeController extends AdminController
     {
         $form = new Form(new Type);
 
-        $form->text('name', __('Name'));
+        $form->text('name', __('分类名称'));
 
         return $form;
     }

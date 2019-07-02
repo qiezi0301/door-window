@@ -24,7 +24,7 @@ class CreateProductsTable extends Migration
             //详情
             $table->text('content')->nullable();
             //多图
-            $table->text('images')->nullable();
+            $table->text('pictures')->nullable();
             //查看统计
             $table->integer('views_count')->default(0);
             $table->timestamps();
