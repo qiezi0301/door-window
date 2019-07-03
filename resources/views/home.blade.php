@@ -2135,564 +2135,564 @@
             </div>
         </div>
         <div class="ModuleItem  StaticModule mhidden-lg mhidden-md mhidden-sm" wo="1912" id="module_18515699">
-            <div class="ModuleGridGiant layout-101 layout-color- module_18515699 clearfix">
-                <!-- 主体 -->
-                <div class='BodyCenter BodyCenter18515699 clearfix'>
-                    <div class='ModuleGridContainer  ModuleGridContainer18515699' gridswidthmode='2'>
-                        <div class='row ModuleSubContainer'>
-                            <div class="gridBgVideo noBgVideo">
-                                <video src="" class="bgVideo" autoplay="autoplay" loop="loop">
-                                </video>
-                                <div class="bgVideoMask">
-                                </div>
-                            </div>
-                            <div id='Sub18515699_1'
-                                 class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18515700">
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18515700 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18515700 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="font-size: 30px;"><span
-                                                                    style="color: rgb(75, 115, 176);"><strong>千万商机&nbsp;</strong></span><span
-                                                                    style="color: rgb(102, 102, 102);"><strong>一路共赢</strong></span></span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">TEN THOUSAND BUSINESS OPPORTUNITIES</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">
-                                  <img src="static/img/20181227174316f35d88.png"/></span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18515700'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='clearfix visible-lg'>
-                            </div>
-                            <div class='clearfix visible-xs'>
-                            </div>
-                        </div>
-                    </div>
-                    <script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
-                            initGridGiant("18515699", {isFloat: "0"});
-                        });</script>
-                </div>
-            </div>
+            {{--<div class="ModuleGridGiant layout-101 layout-color- module_18515699 clearfix">--}}
+                {{--<!-- 主体 -->--}}
+                {{--<div class='BodyCenter BodyCenter18515699 clearfix'>--}}
+                    {{--<div class='ModuleGridContainer  ModuleGridContainer18515699' gridswidthmode='2'>--}}
+                        {{--<div class='row ModuleSubContainer'>--}}
+                            {{--<div class="gridBgVideo noBgVideo">--}}
+                                {{--<video src="" class="bgVideo" autoplay="autoplay" loop="loop">--}}
+                                {{--</video>--}}
+                                {{--<div class="bgVideoMask">--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div id='Sub18515699_1'--}}
+                                 {{--class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12'--}}
+                                 {{--positiontype='2' ismodulecontainer='true'>--}}
+                                {{--<div class="ModuleItem  StaticModule " wo="100" id="module_18515700">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-101 layout-color-red module_18515700 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18515700 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="text-align: center; line-height: 1.75em;"><span--}}
+                                                                {{--style="font-size: 30px;"><span--}}
+                                                                    {{--style="color: rgb(75, 115, 176);"><strong>千万商机&nbsp;</strong></span><span--}}
+                                                                    {{--style="color: rgb(102, 102, 102);"><strong>一路共赢</strong></span></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center; line-height: 1.75em;"><span--}}
+                                                                {{--style="color: rgb(191, 191, 191); font-size: 12px;">TEN THOUSAND BUSINESS OPPORTUNITIES</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center; line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(191, 191, 191); font-size: 12px;">--}}
+                                  {{--<img src="static/img/20181227174316f35d88.png"/></span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18515700'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class='clearfix visible-lg'>--}}
+                            {{--</div>--}}
+                            {{--<div class='clearfix visible-xs'>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {--}}
+                            {{--initGridGiant("18515699", {isFloat: "0"});--}}
+                        {{--});</script>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
         <div class="ModuleItem  StaticModule mhidden-xs" wo="1912" id="module_18483829">
-            <div class="ModuleGridGiant layout-101 layout-color- module_18483829 clearfix">
-                <!-- 主体 -->
-                <div class='BodyCenter BodyCenter18483829 clearfix'>
-                    <div class='ModuleGridContainer  ModuleGridContainer18483829' gridswidthmode='2'>
-                        <div class='row ModuleSubContainer'>
-                            <div class="gridBgVideo noBgVideo">
-                                <video src="" class="bgVideo" autoplay="autoplay" loop="loop">
-                                </video>
-                                <div class="bgVideoMask">
-                                </div>
-                            </div>
-                            <div id='Sub18483829_1'
-                                 class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="1200" id="module_18496686">
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18496686 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18496686 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(75, 115, 176);"><strong><span
-                                                                        style="font-size: 36px;">千万商机&nbsp;</span></strong></span><span
-                                                                style="color: rgb(102, 102, 102);"><strong><span
-                                                                        style="font-size: 36px;">一路共赢</span></strong></span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">TEN THOUSAND BUSINESS OPPORTUNITIES</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">
-                                  <img src="static/img/20181227174316f35d88.png"/></span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="color: rgb(127, 127, 127); font-size: 14px;">全方位系统帮扶，六星级保障系统，在奔往财富的路上让您全程无忧</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18496686'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='clearfix visible-lg'>
-                            </div>
-                            <div class='clearfix visible-xs'>
-                            </div>
-                        </div>
-                    </div>
-                    <script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
-                            initGridGiant("18483829", {isFloat: "0"});
-                        });</script>
-                </div>
-            </div>
+            {{--<div class="ModuleGridGiant layout-101 layout-color- module_18483829 clearfix">--}}
+                {{--<!-- 主体 -->--}}
+                {{--<div class='BodyCenter BodyCenter18483829 clearfix'>--}}
+                    {{--<div class='ModuleGridContainer  ModuleGridContainer18483829' gridswidthmode='2'>--}}
+                        {{--<div class='row ModuleSubContainer'>--}}
+                            {{--<div class="gridBgVideo noBgVideo">--}}
+                                {{--<video src="" class="bgVideo" autoplay="autoplay" loop="loop">--}}
+                                {{--</video>--}}
+                                {{--<div class="bgVideoMask">--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div id='Sub18483829_1'--}}
+                                 {{--class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12'--}}
+                                 {{--positiontype='2' ismodulecontainer='true'>--}}
+                                {{--<div class="ModuleItem  StaticModule " wo="1200" id="module_18496686">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-101 layout-color-red module_18496686 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18496686 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="text-align: center; line-height: 1.75em;"><span--}}
+                                                                {{--style="color: rgb(75, 115, 176);"><strong><span--}}
+                                                                        {{--style="font-size: 36px;">千万商机&nbsp;</span></strong></span><span--}}
+                                                                {{--style="color: rgb(102, 102, 102);"><strong><span--}}
+                                                                        {{--style="font-size: 36px;">一路共赢</span></strong></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center; line-height: 1.75em;"><span--}}
+                                                                {{--style="color: rgb(191, 191, 191); font-size: 12px;">TEN THOUSAND BUSINESS OPPORTUNITIES</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center; line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(191, 191, 191); font-size: 12px;">--}}
+                                  {{--<img src="static/img/20181227174316f35d88.png"/></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center; line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(127, 127, 127); font-size: 14px;">全方位系统帮扶，六星级保障系统，在奔往财富的路上让您全程无忧</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18496686'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class='clearfix visible-lg'>--}}
+                            {{--</div>--}}
+                            {{--<div class='clearfix visible-xs'>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {--}}
+                            {{--initGridGiant("18483829", {isFloat: "0"});--}}
+                        {{--});</script>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
         <div class="ModuleItem  StaticModule mhidden-xs" wo="1912" id="module_18491644">
-            <div class="ModuleGridGiant layout-101 layout-color- module_18491644 clearfix">
-                <!-- 主体 -->
-                <div class='BodyCenter BodyCenter18491644 clearfix'>
-                    <div class='ModuleGridContainer  ModuleGridContainer18491644' gridswidthmode='2'>
-                        <div class='row ModuleSubContainer'>
-                            <div class="gridBgVideo noBgVideo">
-                                <video src="" class="bgVideo" autoplay="autoplay" loop="loop">
-                                </video>
-                                <div class="bgVideoMask">
-                                </div>
-                            </div>
-                            <div id='Sub18491644_1'
-                                 class='ModuleContainer SubContainer ModuleGridItem     col-xs-3 col-sm-2 col-md-2 col-lg-2'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18497207"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18497207 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18497207 clearfix'>
-                                            <img class="image-animation" src="static/img/201812281643172f2229.png"
-                                                 url="/comdata/997/201812/201812281643172f2229.png" alt="图片展示"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18498403"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18498403 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18498403 clearfix'>
-                                            <img class="image-animation" src="static/img/20181228164317dbde1b.png"
-                                                 url="/comdata/997/201812/20181228164317dbde1b.png" alt="图片展示"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18498575"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18498575 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18498575 clearfix'>
-                                            <img class="image-animation" src="static/img/2018122816431734cd08.png"
-                                                 url="/comdata/997/201812/2018122816431734cd08.png" alt="图片展示"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id='Sub18491644_2'
-                                 class='ModuleContainer SubContainer ModuleGridItem     col-xs-9 col-sm-4 col-md-4 col-lg-4'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18497224"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18497224 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18497224 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span
-                                                                style="font-size: 20px; color: rgb(63, 63, 63);"><strong>营销：全网品牌推广，助力终端营销</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span
-                                                                style="color: rgb(165, 165, 165);">与各大互联网平台合作，全国联动营销推广。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18497224'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18498404"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18498404 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18498404 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span
-                                                                style="font-size: 20px; color: rgb(63, 63, 63);"><strong>团队：团队保障，解除后顾之忧</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span
-                                                                style="color: rgb(165, 165, 165);">强大的生产团队、研发团队、营销团队，实力保证。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18498404'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18498593"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18498593 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18498593 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span
-                                                                style="font-size: 20px; color: rgb(63, 63, 63);"><strong>加盟：零加盟费，无忧创业</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span
-                                                                style="color: rgb(165, 165, 165);">选择我们，0加盟费，专业解决您的创业困惑。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18498593'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='clearfix visible-xs'>
-                            </div>
-                            <div id='Sub18491644_3'
-                                 class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-2 col-md-2 col-lg-2'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18497622"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18497622 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18497622 clearfix'>
-                                            <img class="image-animation" src="static/img/2018122816431735866e.png"
-                                                 url="/comdata/997/201812/2018122816431735866e.png" alt="图片展示"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18498405"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18498405 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18498405 clearfix'>
-                                            <img class="image-animation" src="static/img/20181228164317ae5512.png"
-                                                 url="/comdata/997/201812/20181228164317ae5512.png" alt="图片展示"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18498594"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18498594 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18498594 clearfix'>
-                                            <img class="image-animation" src="static/img/20181228164317f0e7cd.png"
-                                                 url="/comdata/997/201812/20181228164317f0e7cd.png" alt="图片展示"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id='Sub18491644_4'
-                                 class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-4 col-md-4 col-lg-4'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18497620"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18497620 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18497620 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span
-                                                                style="font-size: 20px; color: rgb(63, 63, 63);"><strong>培训：培训保障，打造超级航母人才培训</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span
-                                                                style="color: rgb(165, 165, 165);">商学院培训，实战提升终端销售人员水平，提升终端市场营销</span><span
-                                                                style="color: rgb(165, 165, 165);">能力 。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18497620'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18498533"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18498533 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18498533 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span
-                                                                style="font-size: 20px; color: rgb(63, 63, 63);"><strong>指导：开业支持，一对一指导</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span
-                                                                style="color: rgb(165, 165, 165);">终端门店开业支持，免费提供店面搭配、形象设计。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18498533'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18498596"
-                                     data-wow-duration="1.5s">
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18498596 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18498596 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span
-                                                                style="font-size: 20px; color: rgb(63, 63, 63);"><strong>服务：365天全程服务，风雨无阻</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span
-                                                                style="color: rgb(165, 165, 165);">强大的售后服务系统，全年在线，完美解答售后客户销售系列问题</span><span
-                                                                style="color: rgb(165, 165, 165);">&nbsp;。</span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span
-                                                                style="color: rgb(165, 165, 165);"></span>
-                                                    </p>
-                                                    <p></p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18498596'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='clearfix visible-lg'>
-                            </div>
-                        </div>
-                    </div>
-                    <script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
-                            initGridGiant("18491644", {isFloat: "0"});
-                        });</script>
-                </div>
-            </div>
+            {{--<div class="ModuleGridGiant layout-101 layout-color- module_18491644 clearfix">--}}
+                {{--<!-- 主体 -->--}}
+                {{--<div class='BodyCenter BodyCenter18491644 clearfix'>--}}
+                    {{--<div class='ModuleGridContainer  ModuleGridContainer18491644' gridswidthmode='2'>--}}
+                        {{--<div class='row ModuleSubContainer'>--}}
+                            {{--<div class="gridBgVideo noBgVideo">--}}
+                                {{--<video src="" class="bgVideo" autoplay="autoplay" loop="loop">--}}
+                                {{--</video>--}}
+                                {{--<div class="bgVideoMask">--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div id='Sub18491644_1'--}}
+                                 {{--class='ModuleContainer SubContainer ModuleGridItem     col-xs-3 col-sm-2 col-md-2 col-lg-2'--}}
+                                 {{--positiontype='2' ismodulecontainer='true'>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18497207"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageGiant layout-101 layout-color- module_18497207 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18497207 clearfix'>--}}
+                                            {{--<img class="image-animation" src="static/img/201812281643172f2229.png"--}}
+                                                 {{--url="/comdata/997/201812/201812281643172f2229.png" alt="图片展示"/>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18498403"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageGiant layout-101 layout-color- module_18498403 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18498403 clearfix'>--}}
+                                            {{--<img class="image-animation" src="static/img/20181228164317dbde1b.png"--}}
+                                                 {{--url="/comdata/997/201812/20181228164317dbde1b.png" alt="图片展示"/>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18498575"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageGiant layout-101 layout-color- module_18498575 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18498575 clearfix'>--}}
+                                            {{--<img class="image-animation" src="static/img/2018122816431734cd08.png"--}}
+                                                 {{--url="/comdata/997/201812/2018122816431734cd08.png" alt="图片展示"/>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div id='Sub18491644_2'--}}
+                                 {{--class='ModuleContainer SubContainer ModuleGridItem     col-xs-9 col-sm-4 col-md-4 col-lg-4'--}}
+                                 {{--positiontype='2' ismodulecontainer='true'>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18497224"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-101 layout-color-red module_18497224 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18497224 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="font-size: 20px; color: rgb(63, 63, 63);"><strong>营销：全网品牌推广，助力终端营销</strong></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">与各大互联网平台合作，全国联动营销推广。</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18497224'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18498404"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-101 layout-color-red module_18498404 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18498404 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="font-size: 20px; color: rgb(63, 63, 63);"><strong>团队：团队保障，解除后顾之忧</strong></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">强大的生产团队、研发团队、营销团队，实力保证。</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18498404'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18498593"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-101 layout-color-red module_18498593 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18498593 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="font-size: 20px; color: rgb(63, 63, 63);"><strong>加盟：零加盟费，无忧创业</strong></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">选择我们，0加盟费，专业解决您的创业困惑。</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18498593'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class='clearfix visible-xs'>--}}
+                            {{--</div>--}}
+                            {{--<div id='Sub18491644_3'--}}
+                                 {{--class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-2 col-md-2 col-lg-2'--}}
+                                 {{--positiontype='2' ismodulecontainer='true'>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18497622"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageGiant layout-101 layout-color- module_18497622 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18497622 clearfix'>--}}
+                                            {{--<img class="image-animation" src="static/img/2018122816431735866e.png"--}}
+                                                 {{--url="/comdata/997/201812/2018122816431735866e.png" alt="图片展示"/>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18498405"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageGiant layout-101 layout-color- module_18498405 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18498405 clearfix'>--}}
+                                            {{--<img class="image-animation" src="static/img/20181228164317ae5512.png"--}}
+                                                 {{--url="/comdata/997/201812/20181228164317ae5512.png" alt="图片展示"/>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="200" id="module_18498594"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageGiant layout-101 layout-color- module_18498594 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18498594 clearfix'>--}}
+                                            {{--<img class="image-animation" src="static/img/20181228164317f0e7cd.png"--}}
+                                                 {{--url="/comdata/997/201812/20181228164317f0e7cd.png" alt="图片展示"/>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div id='Sub18491644_4'--}}
+                                 {{--class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-4 col-md-4 col-lg-4'--}}
+                                 {{--positiontype='2' ismodulecontainer='true'>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18497620"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-101 layout-color-red module_18497620 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18497620 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="font-size: 20px; color: rgb(63, 63, 63);"><strong>培训：培训保障，打造超级航母人才培训</strong></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">商学院培训，实战提升终端销售人员水平，提升终端市场营销</span><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">能力 。</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18497620'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18498533"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-101 layout-color-red module_18498533 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18498533 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="font-size: 20px; color: rgb(63, 63, 63);"><strong>指导：开业支持，一对一指导</strong></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">终端门店开业支持，免费提供店面搭配、形象设计。</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18498533'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem wow fadeInDown StaticModule " wo="400" id="module_18498596"--}}
+                                     {{--data-wow-duration="1.5s">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-101 layout-color-red module_18498596 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18498596 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="font-size: 20px; color: rgb(63, 63, 63);"><strong>服务：365天全程服务，风雨无阻</strong></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">强大的售后服务系统，全年在线，完美解答售后客户销售系列问题</span><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">&nbsp;。</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="line-height: 2em;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);"></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p></p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18498596'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class='clearfix visible-lg'>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {--}}
+                            {{--initGridGiant("18491644", {isFloat: "0"});--}}
+                        {{--});</script>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
         <div class="ModuleItem  StaticModule mhidden-lg mhidden-md mhidden-sm" wo="1912" id="module_18515704">
-            <div class="ModuleGridGiant layout-101 layout-color- module_18515704 clearfix">
-                <!-- 主体 -->
-                <div class='BodyCenter BodyCenter18515704 clearfix'>
-                    <div class='ModuleGridContainer  ModuleGridContainer18515704' gridswidthmode='2'>
-                        <div class='row ModuleSubContainer'>
-                            <div class="gridBgVideo noBgVideo">
-                                <video src="" class="bgVideo" autoplay="autoplay" loop="loop">
-                                </video>
-                                <div class="bgVideoMask">
-                                </div>
-                            </div>
-                            <div id='Sub18515704_1'
-                                 class='ModuleContainer SubContainer ModuleGridItem     col-xs-6 col-sm-6 col-md-6 col-lg-6'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18515740">
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18515740 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18515740 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation"
-                                                             src="static/img/201812281643172f2229.png" title="" alt=""
-                                                             style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);">营销</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">全网品牌推广</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">助力终端营销</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18515740'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18515955">
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18515955 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18515955 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation"
-                                                             src="static/img/20181228164317dbde1b.png" title="" alt=""
-                                                             style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);">团队</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">团队保障</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">解除后顾之忧</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18515955'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18515957">
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18515957 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18515957 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation"
-                                                             src="static/img/2018122816431734cd08.png" title="" alt=""
-                                                             style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);">加盟</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">零加盟费</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">无忧创业</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18515957'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id='Sub18515704_2'
-                                 class='ModuleContainer SubContainer ModuleGridItem     col-xs-6 col-sm-6 col-md-6 col-lg-6'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18515951">
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18515951 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18515951 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation"
-                                                             src="static/img/2018122816431735866e.png" title="" alt=""
-                                                             style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);">培训</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">培训保障</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">人才培训</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18515951'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18515956">
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18515956 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18515956 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation"
-                                                             src="static/img/20181228164317ae5512.png" title="" alt=""
-                                                             style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);">指导</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">开业支持</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">一对一指导</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18515956'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18515958">
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18515958 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18515958 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix"
-                                                 hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation"
-                                                             src="static/img/20181228164317f0e7cd.png" title="" alt=""
-                                                             style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="font-size: 16px; color: rgb(63, 63, 63);">服务</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">全程服务</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(165, 165, 165);">风雨无阻</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18515958'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='clearfix visible-lg'>
-                            </div>
-                            <div class='clearfix visible-xs'>
-                            </div>
-                        </div>
-                    </div>
-                    <script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
-                            initGridGiant("18515704", {isFloat: "0"});
-                        });</script>
-                </div>
-            </div>
+            {{--<div class="ModuleGridGiant layout-101 layout-color- module_18515704 clearfix">--}}
+                {{--<!-- 主体 -->--}}
+                {{--<div class='BodyCenter BodyCenter18515704 clearfix'>--}}
+                    {{--<div class='ModuleGridContainer  ModuleGridContainer18515704' gridswidthmode='2'>--}}
+                        {{--<div class='row ModuleSubContainer'>--}}
+                            {{--<div class="gridBgVideo noBgVideo">--}}
+                                {{--<video src="" class="bgVideo" autoplay="autoplay" loop="loop">--}}
+                                {{--</video>--}}
+                                {{--<div class="bgVideoMask">--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div id='Sub18515704_1'--}}
+                                 {{--class='ModuleContainer SubContainer ModuleGridItem     col-xs-6 col-sm-6 col-md-6 col-lg-6'--}}
+                                 {{--positiontype='2' ismodulecontainer='true'>--}}
+                                {{--<div class="ModuleItem  StaticModule " wo="100" id="module_18515740">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-103 layout-color-red module_18515740 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18515740 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="GraphicUpper">--}}
+                                                    {{--<a href="javascript:;" style="display: block;">--}}
+                                                        {{--<img class="TextImage image-animation"--}}
+                                                             {{--src="static/img/201812281643172f2229.png" title="" alt=""--}}
+                                                             {{--style="cursor: default">--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);">营销</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">全网品牌推广</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">助力终端营销</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18515740'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem  StaticModule " wo="100" id="module_18515955">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-103 layout-color-red module_18515955 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18515955 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="GraphicUpper">--}}
+                                                    {{--<a href="javascript:;" style="display: block;">--}}
+                                                        {{--<img class="TextImage image-animation"--}}
+                                                             {{--src="static/img/20181228164317dbde1b.png" title="" alt=""--}}
+                                                             {{--style="cursor: default">--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);">团队</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">团队保障</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">解除后顾之忧</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18515955'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem  StaticModule " wo="100" id="module_18515957">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-103 layout-color-red module_18515957 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18515957 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="GraphicUpper">--}}
+                                                    {{--<a href="javascript:;" style="display: block;">--}}
+                                                        {{--<img class="TextImage image-animation"--}}
+                                                             {{--src="static/img/2018122816431734cd08.png" title="" alt=""--}}
+                                                             {{--style="cursor: default">--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);">加盟</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">零加盟费</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">无忧创业</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18515957'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div id='Sub18515704_2'--}}
+                                 {{--class='ModuleContainer SubContainer ModuleGridItem     col-xs-6 col-sm-6 col-md-6 col-lg-6'--}}
+                                 {{--positiontype='2' ismodulecontainer='true'>--}}
+                                {{--<div class="ModuleItem  StaticModule " wo="100" id="module_18515951">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-103 layout-color-red module_18515951 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18515951 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="GraphicUpper">--}}
+                                                    {{--<a href="javascript:;" style="display: block;">--}}
+                                                        {{--<img class="TextImage image-animation"--}}
+                                                             {{--src="static/img/2018122816431735866e.png" title="" alt=""--}}
+                                                             {{--style="cursor: default">--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);">培训</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">培训保障</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">人才培训</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18515951'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem  StaticModule " wo="100" id="module_18515956">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-103 layout-color-red module_18515956 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18515956 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="GraphicUpper">--}}
+                                                    {{--<a href="javascript:;" style="display: block;">--}}
+                                                        {{--<img class="TextImage image-animation"--}}
+                                                             {{--src="static/img/20181228164317ae5512.png" title="" alt=""--}}
+                                                             {{--style="cursor: default">--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);">指导</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">开业支持</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">一对一指导</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18515956'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="ModuleItem  StaticModule " wo="100" id="module_18515958">--}}
+                                    {{--<div class="ModuleImageTextGiant layout-103 layout-color-red module_18515958 clearfix">--}}
+                                        {{--<!-- 主体 -->--}}
+                                        {{--<div class='BodyCenter BodyCenter18515958 clearfix'>--}}
+                                            {{--<div class="imageTextGiant-Container imageTextContainer clearfix"--}}
+                                                 {{--hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">--}}
+                                                {{--<div class="GraphicUpper">--}}
+                                                    {{--<a href="javascript:;" style="display: block;">--}}
+                                                        {{--<img class="TextImage image-animation"--}}
+                                                             {{--src="static/img/20181228164317f0e7cd.png" title="" alt=""--}}
+                                                             {{--style="cursor: default">--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="ModuleImageTextGiantContent ModuleImageTextContent">--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="font-size: 16px; color: rgb(63, 63, 63);">服务</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">全程服务</span>--}}
+                                                    {{--</p>--}}
+                                                    {{--<p style="text-align: center;"><span--}}
+                                                                {{--style="color: rgb(165, 165, 165);">风雨无阻</span>--}}
+                                                    {{--</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<script>changeFontSize($('#module_18515958'));</script>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class='clearfix visible-lg'>--}}
+                            {{--</div>--}}
+                            {{--<div class='clearfix visible-xs'>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {--}}
+                            {{--initGridGiant("18515704", {isFloat: "0"});--}}
+                        {{--});</script>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
         <div class="ModuleItem  StaticModule mhidden-xs" wo="1912" id="module_18499610">
             <div class="ModuleImageGiant layout-101 layout-color- module_18499610 clearfix">
