@@ -14,7 +14,9 @@ class JournalismController extends Controller
      */
     public function index()
     {
-        //
+        $journalisms = Journalism:: orderBy('id','desc')->paginate(10);
+//        dd($journalisms);
+        return view('new.index')->with('journalisms', $journalisms);
     }
 
     /**

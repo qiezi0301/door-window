@@ -141,144 +141,35 @@
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18510622 clearfix'>
                                             <ul class="pro-container clearfix">
+                                                @foreach($products as $product)
                                                 <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
                                                     <a href="{{ route('productDetail') }}" target="_blank" >
                                                         <div class="pro-img">
                                                             <div class="dummy">
                                                             </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/20181229152316366D40F49FD4A462_s.png" alt="DO005" title="DO005">
+                                                            <img src="{{$product->thumb}}" alt="DO005" title="DO005">
                                                         </div>
                                                         <div class="pro-tit">
                                                             <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">DO005</p>
+                                                                <p class="pro-name fontl c6">{{$product->name}}</p>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
-                                                        <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/20181229152253F297435CE8CFC3FF_s.png" alt="DO004" title="DO004">
-                                                        </div>
-                                                        <div class="pro-tit">
-                                                            <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">DO004</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
-                                                        <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/20181229152234DA40C260ED66A239_s.png" alt="DO003" title="DO003">
-                                                        </div>
-                                                        <div class="pro-tit">
-                                                            <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">DO003</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
-                                                        <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/201812291522082967F79B84070F22_s.png" alt="DO002" title="DO002">
-                                                        </div>
-                                                        <div class="pro-tit">
-                                                            <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">DO002</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
-                                                        <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/2018122915214729FAAED2ACD03E55_s.png" alt="DO001" title="DO001">
-                                                        </div>
-                                                        <div class="pro-tit">
-                                                            <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">DO001</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
-                                                        <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/20181229152113B14B4A0DC779AEC7_s.png" alt="PN005" title="PN005">
-                                                        </div>
-                                                        <div class="pro-tit">
-                                                            <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">PN005</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
-                                                        <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/20181229152047412C8539C9F4CA3E_s.png" alt="PN004" title="PN004">
-                                                        </div>
-                                                        <div class="pro-tit">
-                                                            <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">PN004</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
-                                                        <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/20181229152026A57886309A8F4A30_s.png" alt="PN003" title="PN003">
-                                                        </div>
-                                                        <div class="pro-tit">
-                                                            <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">PN003</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
-                                                        <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="http://cdn.img-sys.com/comdata/997/product/20181229152002697B01B89CBDA8D8_s.png" alt="PN002" title="PN002">
-                                                        </div>
-                                                        <div class="pro-tit">
-                                                            <div class="pro-n-p">
-                                                                <p class="pro-name fontl c6">PN002</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
+                                                @endforeach
                                             </ul>
                                             <div class="PageNavigate">
-                                                <div class="pagerGiant"><span class="current">1</span>
-                                                    <a class="num" href="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo=2">2</a>
-                                                    <a class="num" href="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo=3">3</a>
-                                                    <a class="num" href="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo=4">4</a>
-                                                    <a class="next" href="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo=2">&#62;</a><span class="splitline">|</span>
-                                                    <input type="hidden" name="pagerUrl" value="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo={pageNo}" />
-                                                    <input type="hidden" name="pagerCount" value="4" /><span class="text">跳转到第</span>
-                                                    <input class="inputer" size="4" maxlength="4" name="PageNo"><span class="text">页</span>
-                                                    <input type="button" value="确定" class="submit" />
-                                                </div>
+                                                {{$products -> links()}}
+                                                {{--<div class="pagerGiant"><span class="current">1</span>--}}
+                                                    {{--<a class="num" href="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo=2">2</a>--}}
+                                                    {{--<a class="num" href="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo=3">3</a>--}}
+                                                    {{--<a class="num" href="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo=4">4</a>--}}
+                                                    {{--<a class="next" href="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo=2">&#62;</a><span class="splitline">|</span>--}}
+                                                    {{--<input type="hidden" name="pagerUrl" value="/Product/0.html?ClassID=0&responseModuleId=18510622&PageNo={pageNo}" />--}}
+                                                    {{--<input type="hidden" name="pagerCount" value="4" /><span class="text">跳转到第</span>--}}
+                                                    {{--<input class="inputer" size="4" maxlength="4" name="PageNo"><span class="text">页</span>--}}
+                                                    {{--<input type="button" value="确定" class="submit" />--}}
+                                                {{--</div>--}}
                                             </div>
                                             <script>addScript('../skinp/modules/ModuleProductListGiant/productlist.js', function(){
                                                     initProductListGiant("18510622","113",{

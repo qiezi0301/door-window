@@ -31,9 +31,7 @@ Route::get('team', function () {
 })->name('team');
 
 //产品中心
-Route::get('/product', function () {
-    return view('product.index');
-})->name('product');
+Route::get('/product', 'ProductController@index')->name('product');
 
 Route::get('/productDetail', function () {
     return view('product.detail');
@@ -45,9 +43,7 @@ Route::get('/cooperation', function () {
 })->name('cooperation');
 
 //新闻中心
-Route::get('/new', function () {
-    return view('new.index');
-})->name('new');
+Route::get('/new', 'JournalismController@index')->name('new');
 
 Route::get('/newDetail', function () {
     return view('new.detail');
