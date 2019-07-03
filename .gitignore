@@ -15,3 +15,4 @@ yarn-error.log
 _ide_helper.php
 storage/logs/*.log
 /public/uploads/
+/public/upload/

@@ -81,7 +81,7 @@ class ProductController extends AdminController
 
         $form->select('tid','分类')->options(Type::pluck('name', 'id'))->help('请选择产品所属分类');
         $form->text('name', __('产品名称'))->help('请输入产品名称');
-        $form->image('thumb', __('Thumb'))->uniqueName()->removable();
+        $form->image('thumb', __('Thumb'))->uniqueName()->removable()->move('/products/'.date('Y-m-d', time()));
         $form->UEditor('content', __('产品内容'));
         //表字段名一定不要命名为images,否则会报错，此处的坑被我碰到了
         $form->multipleImage('pictures','多图')->help('请上传图片格式')->removable();

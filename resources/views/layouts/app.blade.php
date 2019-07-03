@@ -431,8 +431,8 @@
                                     <div class="ModuleImageGiant layout-101 layout-color- module_18502715 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18502715 clearfix'>
-                                            <img class="image-animation" src="static/img/20190326104019358bea.png"
-                                                 url="/comdata/997/201903/20190326104019358bea.png" alt="图片展示"/>
+                                            <img class="image-animation" src="static/img/logo-foot.png"
+                                                 url="/comdata/997/201903/logo-foot.png" alt="图片展示"/>
                                         </div>
                                     </div>
                                 </div>
@@ -540,14 +540,14 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p>
                                                         <a href="{{ route('contact') }}" target="_self" style="font-size: 24px; color: rgb(191, 191, 191); text-decoration: none;">
-                                                            <span style="font-size: 24px; color: rgb(191, 191, 191); text-decoration: none;">联系我们</span>
+                                                            <span style="font-size: 24px; color: rgb(191, 191, 191); text-decoration: none;">CONKACT US</span>
                                                         </a>
                                                     </p>
-                                                    <p><span style="font-size: 12px; color: rgb(191, 191, 191);">CONKACT US</span></p>
+                                                    <p><span style="font-size: 12px; color: rgb(191, 191, 191);">China factory</span></p>
                                                     <p><br/></p>
-                                                    <p><span style="color: rgb(191, 191, 191);">联系电话：400-800-0000<br/></span></p>
-                                                    <p><span style="color: rgb(191, 191, 191);">电子邮箱：areia@654.com</span></p>
-                                                    <p><span style="color: rgb(191, 191, 191);">公司地址：北京市某某某某工业大厦05188号15</span></p>
+                                                    <p><span style="color: rgb(191, 191, 191);">Tel:0086-20-62633964 62633976 62633939<br/></span></p>
+                                                    <p><span style="color: rgb(191, 191, 191);">E-mail:david@keysuntaope.com</span></p>
+                                                    <p><span style="color: rgb(191, 191, 191);">ADD:NO.38 changzhong road,zhongluotan town, baiyun district,Guangzhou China</span></p>
                                                 </div>
                                             </div>
                                             <script>changeFontSize($('#module_18502732'));</script>
@@ -589,14 +589,8 @@
                                             <div class="imageTextGiant-Container imageTextContainer clearfix"
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(255, 255, 255); font-size: 12px;">某某门窗实业有限公司&nbsp; 版权所有&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 备案号： 粤ICP备12345678号&nbsp;</span>
-                                                        <a href="http://sitemap.xml" target="_self"
-                                                           style="font-size: 14px; color: rgb(255, 255, 255); text-decoration: none;"><span
-                                                                    style="color: rgb(255, 255, 255); text-decoration: none;"><span
-                                                                        style="text-decoration: none; color: rgb(255, 255, 255); font-size: 12px;">&nbsp;</span><span
-                                                                        style="text-decoration: none; font-size: 12px; color: rgb(255, 255, 255);">网站地图</span></span>
-                                                        </a>
+                                                    <p style="text-align: center;">
+                                                        <span style="color: rgb(255, 255, 255); font-size: 12px;">Copyright ©2012 Guangzhou Keysun Adhesive Manufactory Company All Rights Reserved.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -611,9 +605,11 @@
                             </div>
                         </div>
                     </div>
-                    <script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
+                    <script type="text/javascript">
+                        addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
                             initGridGiant("18502735", {isFloat: "0"});
-                        });</script>
+                        });
+                    </script>
                 </div>
             </div>
         </div>
