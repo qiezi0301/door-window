@@ -105,17 +105,50 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="javascript:void(0)">
-                                        <img src="static/img/201903261039504d81a3.png" alt="" title=""
-                                             class="img-responsive">
+                                        <img src="static/img/banner001.jpg" alt="" title="" class="img-responsive">
                                     </a>
-                                    <div
-                                            id="Sub18468113_1"
+                                    <div  id="Sub18468113_1"
                                             isModuleContainer="true"
                                             class="ModuleContainer SubContainer ModuleSlideContainer module_18468113"
                                             module-container-type="ModuleSlide"
                                             a-link-value=""
-                                            style=""
-                                    >
+                                            style="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="static/img/banner002.jpg" alt="" title="" class="img-responsive">
+                                    </a>
+                                    <div  id="Sub18468113_1"
+                                            isModuleContainer="true"
+                                            class="ModuleContainer SubContainer ModuleSlideContainer module_18468113"
+                                            module-container-type="ModuleSlide"
+                                            a-link-value=""
+                                            style="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="static/img/banner003.jpg" alt="" title="" class="img-responsive">
+                                    </a>
+                                    <div  id="Sub18468113_1"
+                                            isModuleContainer="true"
+                                            class="ModuleContainer SubContainer ModuleSlideContainer module_18468113"
+                                            module-container-type="ModuleSlide"
+                                            a-link-value=""
+                                            style="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <img src="static/img/banner004.jpg" alt="" title="" class="img-responsive">
+                                    </a>
+                                    <div  id="Sub18468113_1"
+                                            isModuleContainer="true"
+                                            class="ModuleContainer SubContainer ModuleSlideContainer module_18468113"
+                                            module-container-type="ModuleSlide"
+                                            a-link-value=""
+                                            style="">
                                     </div>
                                 </div>
                             </div>
@@ -123,10 +156,8 @@
                             <div class="swiper-pagination">
                             </div>
                             <!-- Add Arrows -->
-                            <div class="swiper-slideshow-1-next slide_button">
-                            </div>
-                            <div class="swiper-slideshow-1-prev slide_button">
-                            </div>
+                            <div class="swiper-slideshow-1-next slide_button"> </div>
+                            <div class="swiper-slideshow-1-prev slide_button"> </div>
                         </div>
                         <script>addScript('./skinp/modules/ModuleSlideGiant/commonSlide.js', function () {
                                 var option = {};
