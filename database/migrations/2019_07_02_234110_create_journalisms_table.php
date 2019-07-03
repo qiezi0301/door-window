@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProductsTable extends Migration
+class CreateJournalismsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,18 +13,16 @@ class CreateProductsTable extends Migration
      */
     public function up()
     {
-        Schema::create('products', function (Blueprint $table) {
+        Schema::create('journalisms', function (Blueprint $table) {
             $table->bigIncrements('id');
-            //分类id
-            $table->unsignedBigInteger('tid');
-            //产品名称
-            $table->string('name');
+            //标题
+            $table->string('title');
+            //描述
+            $table->string('describe')->nullable();
             //缩略图
             $table->string('thumb')->nullable();
             //详情
             $table->text('content')->nullable();
-            //多图
-            $table->text('pictures')->nullable();
             //查看统计
             $table->integer('views_count')->default(0);
             $table->timestamps();
@@ -38,6 +36,6 @@ class CreateProductsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('products');
+        Schema::dropIfExists('journalisms');
     }
 }
