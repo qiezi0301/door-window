@@ -15,4 +15,5 @@ Route::group([
     $router->resource('types', 'TypeController');
     $router->resource('products', 'ProductController');
     $router->resource('journalisms', 'JournalismController');
+    $router->resource('new/types', 'NewTypeController');
 });
