@@ -49,11 +49,12 @@
     </script>
     <script src="{{ asset('static/js/pagejs.js') }}"></script>
     <script>
-        loadStyleSheet('./share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css', CanDesign != 'True'); //非编辑模式下延时加载
+        loadStyleSheet("{{asset('./share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css')}}", CanDesign != 'True'); //非编辑模式下延时加载
     </script>
 </head>
 <body id="page_468177" class="module_bg_color">
 <!-- 正常页面结构 -->
+<!-- 手机导航 -->
 <!-- 手机导航 -->
 <article class="ModuleMobileNavGiant layout-101 mobileNav-18466495" id="module_18466495"
          moduletype="ModuleMobileNavGiant">
@@ -73,7 +74,7 @@
                     </div>
                 </a>
                 <p>
-                    <img src="./static/img/2018122818494502c742.png">
+                    <img src="{{ asset('static/img/2018122818494502c742.png') }}">
                 </p>
             </header>
         </section>
@@ -171,16 +172,13 @@
                             <p class="fl maxlarge">新闻中心</p><span class="more fr iconfont icon-jia"></span>
                         </a>
                         <ul class="clearfix subnav navul" style="display: none;">
+                            @foreach($newTypes as $newType)
                             <li class="borderTop1px">
-                                <a href="{{ route('new') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">企业新闻</p>
+                                <a href="/new/{{$newType->id}}" class="link " target="_self">
+                                    <p class="fl maxmiddle">{{$newType->name}}</p>
                                 </a>
                             </li>
-                            <li class="borderTop1px">
-                                <a href="{{ route('new') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">行业新闻</p>
-                                </a>
-                            </li>
+                            @endforeach
                         </ul>
                     </li>
                     <li class="clearfix border1px">
@@ -288,8 +286,7 @@
                                     <div class="ModuleImageGiant layout-101 layout-color- module_18467998 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18467998 clearfix'>
-                                            <img class="image-animation" src="static/img/20190326103933fa37eb.png"
-                                                 url="/comdata/997/201903/20190326103933fa37eb.png" alt="图片展示"/>
+                                            <img class="image-animation" src="{{ asset('static/img/20190326103933fa37eb.png') }}" alt="图片展示"/>
                                         </div>
                                     </div>
                                 </div>
@@ -368,10 +365,9 @@
                                                            class='main-nav-item fontm OneRow'>新闻中心</a>
                                                         <!--获取二级菜单-->
                                                         <div id="SubMenu_586230_18467980" class='sub-nav-item-group'>
-                                                            <a href="{{ route('new') }}" target="_self"
-                                                               class='sub-nav-item OneRow'>企业新闻</a>
-                                                            <a href="{{ route('new') }}" target="_self"
-                                                               class='sub-nav-item OneRow'>行业新闻</a>
+                                                            @foreach($newTypes as $newType)
+                                                            <a href="/new/{{$newType->id}}" target="_self" class='sub-nav-item OneRow'>{{$newType->name}}</a>
+                                                            @endforeach
                                                         </div>
                                                     </div>
                                                     <div class='main-nav-item-group' id="Menu_586232_18467980"
@@ -386,7 +382,7 @@
                                                 </div>
                                             </div>
                                             <script>
-                                                addScript('./skinp/modules/ModuleNavGiant/menu.js', function () {
+                                                addScript("{{ asset('./skinp/modules/ModuleNavGiant/menu.js') }}", function () {
                                                     initModuleNavGiant("18467980", "107", "0");
                                                 });
                                             </script>
@@ -399,7 +395,7 @@
                         </div>
                     </div>
                     <script type="text/javascript">
-                        addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
+                        addScript("{{ asset('./skinp/modules/ModuleGridGiant/modulegrid.js') }}", function () {
                             initGridGiant("18467971", {isFloat: "0"});
                         });
                     </script>
@@ -431,8 +427,7 @@
                                     <div class="ModuleImageGiant layout-101 layout-color- module_18502715 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18502715 clearfix'>
-                                            <img class="image-animation" src="static/img/logo-foot.png"
-                                                 url="/comdata/997/201903/logo-foot.png" alt="图片展示"/>
+                                            <img class="image-animation" src="{{ asset('static/img/logo-foot.png') }}" alt="图片展示"/>
                                         </div>
                                     </div>
                                 </div>
@@ -474,8 +469,7 @@
                                     <div class="ModuleImageGiant layout-101 layout-color- module_18502723 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18502723 clearfix'>
-                                            <img class="image-animation" src="static/img/201812281907117aef1b.png"
-                                                 url="/comdata/997/201812/201812281907117aef1b.png" alt="图片展示"/>
+                                            <img class="image-animation" src="{{ asset('static/img/201812281907117aef1b.png') }}" alt="图片展示"/>
                                         </div>
                                     </div>
                                 </div>
@@ -486,8 +480,8 @@
                                             <div class="imageTextGiant-Container imageTextContainer clearfix"
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span
-                                                                style="color: rgb(255, 255, 255);">微信公众号</span>
+                                                    <p style="text-align: center;">
+                                                        <span style="color: rgb(255, 255, 255);">微信公众号</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -505,8 +499,7 @@
                                     <div class="ModuleImageGiant layout-101 layout-color- module_18502779 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18502779 clearfix'>
-                                            <img class="image-animation" src="static/img/201812281907117aef1b.png"
-                                                 url="/comdata/997/201812/201812281907117aef1b.png" alt="图片展示"/>
+                                            <img class="image-animation" src="{{ asset('static/img/201812281907117aef1b.png') }}" alt="图片展示"/>
                                         </div>
                                     </div>
                                 </div>
@@ -560,7 +553,7 @@
                         </div>
                     </div>
                     <script type="text/javascript">
-                        addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
+                        addScript("{{ asset('./skinp/modules/ModuleGridGiant/modulegrid.js') }}", function () {
                             initGridGiant("18502670", {isFloat: "0"});
                         });
                     </script>
@@ -606,7 +599,7 @@
                         </div>
                     </div>
                     <script type="text/javascript">
-                        addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
+                        addScript("{{ asset('./skinp/modules/ModuleGridGiant/modulegrid.js') }}", function () {
                             initGridGiant("18502735", {isFloat: "0"});
                         });
                     </script>
@@ -852,13 +845,13 @@
 <!-- 加载设计界面所用的脚本和css -->
 <script type='text/javascript'>delayload({
         id: ['pagebody'],
-        src: './images/loading2.gif',
-        bgsrc: './images/imgbg.png'
+        src: "{{ asset('./images/loading2.gif') }}",
+        bgsrc: "{{ asset('./images/imgbg.png') }}"
     });</script>
 <!--统计代码-->
 <script type='text/javascript'>var referrer = document.referrer + '';
     if (IsWeiXin && referrer == '') referrer = 'wechat.com';
-    var countersrc = './index.php?c=Front/Count&Referer=' + escape(referrer) + '&Width=' + escape(screen.width) + '&Height=' + escape(screen.height) + '&Page=' + escape(window.location.pathname + window.location.search);
+    var countersrc = "{{asset('./index.php?c=Front/Count&Referer=')}}" + escape(referrer) + '&Width=' + escape(screen.width) + '&Height=' + escape(screen.height) + '&Page=' + escape(window.location.pathname + window.location.search);
     document.write("<script async type='text/javascript' src='" + countersrc + "'></" + "script>");
     if (window.location.getQueryString) {
         var linkKID = window.location.getQueryString("linkKID");
@@ -867,7 +860,7 @@
             document.write("<script async type='text/javascript' src='" + linkKeySrc + "'></" + "script>");
         }
     }</script>
-<script src="static/js/wow.min.js"></script>
+<script src="{{ asset('static/js/wow.min.js') }}"></script>
 <script>new WOW().init();</script>
 <script>//手机版的产品详情页不需要页头页尾
     function showHeadFoot() {
@@ -878,8 +871,8 @@
     showHeadFoot();
     $(window).resize(showHeadFoot);
     if (!IsWeiXin) {
-        addScript('./share/floaters.js', function () {
-            addScript('./index.php?c=Front/IMPanel', null);
+        addScript("{{ asset('./share/floaters.js') }}", function () {
+            addScript("{{ asset('./index.php?c=Front/IMPanel') }}", null);
         });
 
     } else {
@@ -889,7 +882,7 @@
     $(window).load(function () {
         if (IsWeiXin) {
             var match = window.location.href.match(/#invite(\d+)/i);
-            var barurl = "./index.php?c=front/UserBar";
+            var barurl = "{{asset('./index.php?c=front/UserBar')}}";
             if (match && match[1]) barurl += "&invite=" + match[1];
             if ("YouZhan.SiteFront.HomeIndex" == "YouZhan.SiteFront.HomeIndex" || "YouZhan.SiteFront.HomeIndex" == "YouZhan.SiteFront.NewsDetail" || "YouZhan.SiteFront.HomeIndex" == "YouZhan.SiteFront.ProductDetail") $("#userbar").load(barurl);
         }

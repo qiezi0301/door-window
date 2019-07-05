@@ -4899,4 +4899,4 @@ function delayload2(option){
 	src: 'http://h560.72dns.net/images/loading2.gif'
 });*/;// END OF /scripts/imgdelayload.js
 
- addScript('./scripts/bootstrap/bootbox.min.js',null,true);
+ // addScript("{{asset('scripts/bootstrap/bootbox.min.js')}}",null,true);

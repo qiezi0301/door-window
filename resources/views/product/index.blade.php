@@ -145,9 +145,8 @@
                                                 <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
                                                     <a href="{{ route('productDetail') }}" target="_blank" >
                                                         <div class="pro-img">
-                                                            <div class="dummy">
-                                                            </div>
-                                                            <img src="{{$product->thumb}}" alt="DO005" title="DO005">
+                                                            <div class="dummy"></div>
+                                                            <img src="upload/{{$product->thumb}}" alt="DO005" title="DO005">
                                                         </div>
                                                         <div class="pro-tit">
                                                             <div class="pro-n-p">

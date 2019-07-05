@@ -89,25 +89,22 @@
                                                                 <div class='BodyCenter BodyCenter18512767 clearfix'>
                                                                     <header class="class-title classify"><span class="OneRow class-title-text">新闻中心</span><span class="class-title-icon icon iconfont icon-jia" aria-hidden="true"></span>
                                                                     </header>
-                                                                    <ul class="one-classify assoc-cls-listener-a">
-                                                                        <li class="main-class-item">
-                                                                            <a href="News.html" dataid="1" title="企业新闻">
-                                                                                <p style="display: block; position: absolute;">
-                                                                                    <i class="main-class-colorlump"></i>
-                                                                                </p><span class="OneRow main-class-text">企业新闻</span>
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="main-class-item">
-                                                                            <a href="News.html" dataid="2" title="行业新闻">
-                                                                                <p style="display: block; position: absolute;">
-                                                                                    <i class="main-class-colorlump"></i>
-                                                                                </p><span class="OneRow main-class-text">行业新闻</span>
-                                                                            </a>
-                                                                        </li>
+
+                                                                    <ul class="one-classify">
+                                                                        @foreach($newTypes as $newType)
+                                                                            <li class="main-class-item">
+                                                                                <a href="/new/{{$newType->id}}">
+                                                                                    <p style="display: block; position: absolute;"><i class="main-class-colorlump"></i></p>
+                                                                                    <span class="OneRow main-class-text">{{$newType->name}}</span>
+                                                                                </a>
+                                                                            </li>
+                                                                        @endforeach
                                                                     </ul>
-                                                                    <script>addScript('../skinp/modules/ModuleAssocCommonClsGiant/assoccommoncls.js', function () {
+                                                                    <script>
+                                                                        addScript('../skinp/modules/ModuleAssocCommonClsGiant/assoccommoncls.js', function () {
                                                                             initAssocCommonClsGiant(18512767,'102')
-                                                                        });</script>
+                                                                        });
+                                                                    </script>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -124,7 +121,7 @@
                                                                             @foreach($journalisms as $journalism)
                                                                                 <!--ITEMSTART-->
                                                                                 <li class="news-item">
-                                                                                    <a  href="{{route('newDetail')}}" target='_blank'>
+                                                                                    <a  href="/newDetail/{{$journalism->id}}" target='_blank'>
                                                                                         <div class="news-tit ">
                                                                                             <div class="fl news-span1">
                                                                                                 <div class="news-time">
