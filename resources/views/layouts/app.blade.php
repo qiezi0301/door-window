@@ -122,36 +122,13 @@
                             <p class="fl maxlarge">Product Center</p><span class="more fr iconfont icon-jia"></span>
                         </a>
                         <ul class="clearfix subnav navul" style="display: none;">
-                            <li class="borderTop1px">
-                                <a href="{{ route('product') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">推拉窗</p>
-                                </a>
-                            </li>
-                            <li class="borderTop1px">
-                                <a href="{{ route('product') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">铝包木</p>
-                                </a>
-                            </li>
-                            <li class="borderTop1px">
-                                <a href="{{ route('product') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">沐浴房</p>
-                                </a>
-                            </li>
-                            <li class="borderTop1px">
-                                <a href="{{ route('product') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">阳光房</p>
-                                </a>
-                            </li>
-                            <li class="borderTop1px">
-                                <a href="{{ route('product') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">木门</p>
-                                </a>
-                            </li>
-                            <li class="borderTop1px">
-                                <a href="{{ route('product') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">平开门</p>
-                                </a>
-                            </li>
+                            @foreach($types as $type)
+                                <li class="borderTop1px">
+                                    <a href="/product/{{$type->id}}" class="link " target="_self">
+                                        <p class="fl maxmiddle">{{$type->name}}</p>
+                                    </a>
+                                </li>
+                            @endforeach
                         </ul>
                     </li>
                     <li class="clearfix border1px">
@@ -335,18 +312,9 @@
                                                            style="cursor:pointer" class='main-nav-item fontm OneRow'>Product Center</a>
                                                         <!--获取二级菜单-->
                                                         <div id="SubMenu_586224_18467980" class='sub-nav-item-group'>
-                                                            <a href="{{ route('product') }}" target="_self"
-                                                               class='sub-nav-item OneRow'>推拉窗</a>
-                                                            <a href="{{ route('product') }}" target="_self"
-                                                               class='sub-nav-item OneRow'>铝包木</a>
-                                                            <a href="{{ route('product') }}" target="_self"
-                                                               class='sub-nav-item OneRow'>沐浴房</a>
-                                                            <a href="{{ route('product') }}" target="_self"
-                                                               class='sub-nav-item OneRow'>阳光房</a>
-                                                            <a href="{{ route('product') }}" target="_self"
-                                                               class='sub-nav-item OneRow'>木门</a>
-                                                            <a href="{{ route('product') }}" target="_self"
-                                                               class='sub-nav-item OneRow'>平开门</a>
+                                                            @foreach($types as $type)
+                                                                <a href="/product/{{$type->id}}" target="_self" class='sub-nav-item OneRow'>{{$type->name}}</a>
+                                                            @endforeach
                                                         </div>
                                                     </div>
                                                     <div class='main-nav-item-group' id="Menu_586226_18467980"
@@ -481,7 +449,7 @@
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center;">
-                                                        <span style="color: rgb(255, 255, 255);">微信公众号</span>
+                                                        <span style="color: rgb(255, 255, 255);">WeChat Official Account</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -511,7 +479,7 @@
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center;">
-                                                        <span style="color: rgb(255, 255, 255);">微信小程序</span>
+                                                        <span style="color: rgb(255, 255, 255);">WeChat Mini Program</span>
                                                     </p>
                                                 </div>
                                             </div>

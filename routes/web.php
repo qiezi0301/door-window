@@ -12,28 +12,33 @@
 */
 
 use App\NewType;
+use App\Type;
 
 Route::post('/deploy','DeploymentController@deploy');
 
 Route::get('/', function () {
     $newTypes = NewType::all();
-    return view('home',compact('newTypes'));
+    $types = Type::all();
+    return view('home',compact('newTypes','types'));
 });
 
 //品牌故事
 Route::get('/brand', function () {
     $newTypes = NewType::all();
-    return view('brand.index',compact('newTypes'));
+    $types = Type::all();
+    return view('brand.index',compact('newTypes','types'));
 })->name('brand');
 
 Route::get('culture', function () {
     $newTypes = NewType::all();
-    return view('brand.culture',compact('newTypes'));
+    $types = Type::all();
+    return view('brand.culture',compact('newTypes','types'));
 })->name('culture');
 
 Route::get('team', function () {
     $newTypes = NewType::all();
-    return view('brand.team',compact('newTypes'));
+    $types = Type::all();
+    return view('brand.team',compact('newTypes','types'));
 })->name('team');
 
 //产品中心
@@ -44,7 +49,8 @@ Route::get('/productDetail/{id}', 'ProductController@show');
 //合作加盟
 Route::get('/cooperation', function () {
     $newTypes = NewType::all();
-    return view('cooperation.index',compact('newTypes'));
+    $types = Type::all();
+    return view('cooperation.index',compact('newTypes','types'));
 })->name('cooperation');
 
 //新闻中心
@@ -55,5 +61,6 @@ Route::get('/newDetail/{id}', 'JournalismController@show');
 //联系我们
 Route::get('/contact', function () {
     $newTypes = NewType::all();
-    return view('contact.index',compact('newTypes'));
+    $types = Type::all();
+    return view('contact.index',compact('newTypes','types'));
 })->name('contact');

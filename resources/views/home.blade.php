@@ -197,8 +197,9 @@
                                             <div class="imageTextGiant-Container imageTextContainer clearfix"
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p><span
-                                                                style="color: rgb(255, 255, 255);"><strong>热门搜索关键词：</strong>推拉门&nbsp; |&nbsp; 门窗加盟店展示&nbsp; |&nbsp; 门窗加盟流程&nbsp; |&nbsp; 加盟代理优势&nbsp; |&nbsp; 铝合金门窗定制</span>
+                                                    <p><span style="color: rgb(255, 255, 255);">
+                                                            <strong>Hot search：</strong>sliding door&nbsp; |&nbsp; window franchise showcase&nbsp; |&nbsp; window franchise process&nbsp;
+                                                        </span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -227,7 +228,7 @@
                                                                     <div class="searchInputPanel"><span
                                                                                 class="searchIcon iconfont icon-sousuo1"></span>
                                                                         <input type="text" name="Keyword"
-                                                                               placeholder='请输入关键字'
+                                                                               placeholder='Please enter keywords'
                                                                                class="ModuleSearchInput"/>
                                                                     </div>
                                                                 </div>
@@ -235,7 +236,7 @@
                                                             <td style="width:1%;">
                                                                 <div class="searchBtnPanel">
                                                                     <button class="btn btn-default ModuleSearchButton"
-                                                                            type="submit">搜索
+                                                                            type="submit">search
                                                                     </button>
                                                                 </div>
                                                             </td>
@@ -256,10 +257,10 @@
                                                             </div>
                                                             <div class="search-mobile-input">
                                                                 <input class="keyword-input" type="text"
-                                                                       placeholder="请输入关键字" name="mobileKeyword"/>
+                                                                       placeholder="Please enter keywords" name="mobileKeyword"/>
                                                             </div>
                                                             <div class="search-mobile-button"><span
-                                                                        class="search-mobile-submit">搜索</span>
+                                                                        class="search-mobile-submit">search</span>
                                                             </div>
                                                         </div>
                                                         <div class="search-mobile-hotkey">
@@ -322,7 +323,7 @@
                                                                     <div class="searchInputPanel"><span
                                                                                 class="searchIcon iconfont icon-sousuo1"></span>
                                                                         <input type="text" name="Keyword"
-                                                                               placeholder='请输入关键字'
+                                                                               placeholder='Please enter keywords'
                                                                                class="ModuleSearchInput"/>
                                                                     </div>
                                                                 </div>
@@ -330,7 +331,7 @@
                                                             <td style="width:1%;">
                                                                 <div class="searchBtnPanel">
                                                                     <button class="btn btn-default ModuleSearchButton"
-                                                                            type="submit">搜索
+                                                                            type="submit">search
                                                                     </button>
                                                                 </div>
                                                             </td>
@@ -351,10 +352,10 @@
                                                             </div>
                                                             <div class="search-mobile-input">
                                                                 <input class="keyword-input" type="text"
-                                                                       placeholder="请输入关键字" name="mobileKeyword"/>
+                                                                       placeholder="Please enter keywords" name="mobileKeyword"/>
                                                             </div>
                                                             <div class="search-mobile-button"><span
-                                                                        class="search-mobile-submit">搜索</span>
+                                                                        class="search-mobile-submit">search</span>
                                                             </div>
                                                         </div>
                                                         <div class="search-mobile-hotkey">
@@ -410,17 +411,10 @@
                                             <div class="imageTextGiant-Container imageTextContainer clearfix"
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="font-size: 30px;"><span
-                                                                    style="color: rgb(75, 115, 176);"><strong>产品</strong></span><span
-                                                                    style="color: rgb(102, 102, 102);"><strong>中心</strong></span></span>
+                                                    <p style="text-align: center; line-height: 1.75em;"><span style="font-size: 30px;"><span style="color: rgb(75, 115, 176);"><strong>PRODUCT</strong></span><span style="color: rgb(102, 102, 102);"><strong>CENTER</strong></span></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">PRODUCT CENTER</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">
-                                  <img src="static/img/20181227174316f35d88.png"/></span>
+                                                    <p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">PRODUCT CENTER</span></p>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;"><img src="static/img/20181227174316f35d88.png"/></span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -463,21 +457,14 @@
                                             <div class="imageTextGiant-Container imageTextContainer clearfix"
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(75, 115, 176);"><strong><span
-                                                                        style="font-size: 36px;">产品</span></strong></span><span
-                                                                style="color: rgb(102, 102, 102);"><strong><span
-                                                                        style="font-size: 36px;">中心</span></strong></span>
+                                                    <p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(75, 115, 176);"><strong><span style="font-size: 36px;">PRODUCT</span></strong></span>
+                                                        <span style="color: rgb(102, 102, 102);"><strong><span style="font-size: 36px;">CENTER</span></strong></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">PRODUCT CENTER</span>
+                                                    <p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">PRODUCT CENTER</span></p>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;"><img src="static/img/20181227174316f35d88.png"/></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">
-                                  <img src="static/img/20181227174316f35d88.png"/></span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="color: rgb(127, 127, 127); font-size: 14px;">秉承德国精工制造的专业严谨标准，让每一款产品在这一过程中完成从成品到精品的蜕变</span>
+                                                    <p style="text-align: center; line-height: 2em;">
+                                                        <span style="color: rgb(127, 127, 127); font-size: 14px;">Adhering to the professional and rigorous standards of German Seiko Manufacturing, let each product complete the transformation from finished products to high-quality products in this process.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -492,9 +479,11 @@
                             </div>
                         </div>
                     </div>
-                    <script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
+                    <script type="text/javascript">
+                        addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
                             initGridGiant("18468459", {isFloat: "0"});
-                        });</script>
+                        });
+                    </script>
                 </div>
             </div>
         </div>
@@ -520,114 +509,17 @@
                                             <div class="tabContainer TabContainer-Container tabContainer110">
                                                 <div class="Nav-Container">
                                                     <ul class="nav nav-pills">
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18516000__tabPane_7413"
-                                                               href="#module_18516000__tabPane_7413" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/2018122717501880d9f3.jpg">
-                                                                </div>
-                                                                <p>推拉窗</p>
+                                                        @foreach($types as $type)
+                                                        <li class=" commonLabel tab-link" on-link-href="/product/{{$type->id}}">
+                                                            <div class="tab-border-top"></div>
+                                                            <a class="OneRow" data-href-id="#module_18516000__tabPane_7413" href="#module_18516000__tabPane_7413" data-toggle="tab" onmousedown="return false;">
+                                                                <div class="nav-img-logo"><img src="static/img/2018122717501880d9f3.jpg"></div>
+                                                                <p>{{$type->name}}</p>
                                                             </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
+                                                            <div class="tab-border-bottom"></div>
+                                                            <div class="tab-arrows"></div>
                                                         </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18516000__tabPane_6856"
-                                                               href="#module_18516000__tabPane_6856" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/201812271750188ecb84.jpg">
-                                                                </div>
-                                                                <p>铝包木</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18516000__tabPane_638"
-                                                               href="#module_18516000__tabPane_638" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/20181227175018d1e70f.jpg">
-                                                                </div>
-                                                                <p>沐浴房</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18516000__tabPane_769"
-                                                               href="#module_18516000__tabPane_769" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/2018122717501817ecfe.jpg">
-                                                                </div>
-                                                                <p>阳光房</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18516000__tabPane_3706"
-                                                               href="#module_18516000__tabPane_3706" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/201812271750184e7f90.jpg">
-                                                                </div>
-                                                                <p>木门</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18516000__tabPane_6498"
-                                                               href="#module_18516000__tabPane_6498" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/20181227175018725703.jpg">
-                                                                </div>
-                                                                <p>平开门</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
+                                                        @endforeach
                                                     </ul>
                                                     <i class="btnScrollLeft glyphicon glyphicon-menu-left"></i>
                                                     <i class="btnScrollRight glyphicon glyphicon-menu-right"></i>
@@ -710,9 +602,7 @@
                                                          ModuleType="ModuleTabContainerGridGiant"
                                                          id="module_18516000__tabPane_6856"
                                                          data-href-id="#module_18516000__tabPane_6856">
-                                                        <div id='Sub18516000_6856' style='width:100%;'
-                                                             class='ModuleTabContainerContent clearfix'
-                                                        >
+                                                        <div id='Sub18516000_6856' style='width:100%;' class='ModuleTabContainerContent clearfix' >
                                                             <div id='Sub18516000_Tab6856_1'
                                                                  class='ModuleContainer SubContainer TabSubGridContainer col-xs-6 col-sm-6 col-md-6 col-lg-6'
                                                                  ismodulecontainer='true' JustContainer='true'>
@@ -1059,9 +949,11 @@
                             </div>
                         </div>
                     </div>
-                    <script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
+                    <script type="text/javascript">
+                        addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
                             initGridGiant("18515999", {isFloat: "0"});
-                        });</script>
+                        });
+                    </script>
                 </div>
             </div>
         </div>
@@ -1077,125 +969,27 @@
                                 <div class="bgVideoMask">
                                 </div>
                             </div>
-                            <div id='Sub18468458_1'
-                                 class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12'
-                                 positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem wow zoomIn StaticModule " wo="1200" id="module_18468708"
-                                     data-wow-duration="1.5s">
+                            <div id='Sub18468458_1' class='ModuleContainer SubContainer ModuleGridItem col-xs-12 col-sm-12 col-md-12 col-lg-12' positiontype='2' ismodulecontainer='true'>
+                                <div class="ModuleItem wow zoomIn StaticModule " wo="1200" id="module_18468708" data-wow-duration="1.5s">
                                     <div class="ModuleTabContainerV2Giant layout-110 layout-color-blue module_18468708 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18468708 clearfix'>
                                             <div class="tabContainer TabContainer-Container tabContainer110">
                                                 <div class="Nav-Container">
                                                     <ul class="nav nav-pills">
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18468708__tabPane_7413"
-                                                               href="#module_18468708__tabPane_7413" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/2018122717501880d9f3.jpg">
-                                                                </div>
-                                                                <p>推拉窗</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18468708__tabPane_6856"
-                                                               href="#module_18468708__tabPane_6856" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/201812271750188ecb84.jpg">
-                                                                </div>
-                                                                <p>铝包木</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18468708__tabPane_638"
-                                                               href="#module_18468708__tabPane_638" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/20181227175018d1e70f.jpg">
-                                                                </div>
-                                                                <p>沐浴房</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18468708__tabPane_769"
-                                                               href="#module_18468708__tabPane_769" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/2018122717501817ecfe.jpg">
-                                                                </div>
-                                                                <p>阳光房</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18468708__tabPane_3706"
-                                                               href="#module_18468708__tabPane_3706" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/201812271750184e7f90.jpg">
-                                                                </div>
-                                                                <p>木门</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
-                                                        <li class=" commonLabel tab-link"
-                                                            on-link-href="Product/271723.html">
-                                                            <div class="tab-border-top">
-                                                            </div>
-                                                            <a class="OneRow"
-                                                               data-href-id="#module_18468708__tabPane_6498"
-                                                               href="#module_18468708__tabPane_6498" data-toggle="tab"
-                                                               onmousedown="return false;">
-                                                                <div class="nav-img-logo">
-                                                                    <img src="static/img/20181227175018725703.jpg">
-                                                                </div>
-                                                                <p>平开门</p>
-                                                            </a>
-                                                            <div class="tab-border-bottom">
-                                                            </div>
-                                                            <div class="tab-arrows">
-                                                            </div>
-                                                        </li>
+                                                        @foreach($types as $type)
+                                                            <li class=" commonLabel tab-link" on-link-href="/product/{{$type->id}}">
+                                                                <div class="tab-border-top"></div>
+                                                                <a class="OneRow" data-href-id="#module_18468708__tabPane_7413" href="#module_18468708__tabPane_7413" data-toggle="tab" onmousedown="return false;">
+                                                                    <div class="nav-img-logo">
+                                                                        <img src="static/img/2018122717501880d9f3.jpg">
+                                                                    </div>
+                                                                    <p>{{$type->name}}</p>
+                                                                </a>
+                                                                <div class="tab-border-bottom"></div>
+                                                                <div class="tab-arrows"></div>
+                                                            </li>
+                                                        @endforeach
                                                     </ul>
                                                     <i class="btnScrollLeft glyphicon glyphicon-menu-left"></i>
                                                     <i class="btnScrollRight glyphicon glyphicon-menu-right"></i>
@@ -1203,10 +997,10 @@
                                                          class="horizontal-bar">
                                                     </div>
                                                 </div><!--
-                            <div class="panelBtnScroll">
-                              <i class="btnScrollLeft glyphicon glyphicon-menu-left"></i>
-                              <i class="btnScrollRight glyphicon glyphicon-menu-right"></i>
-                            </div>-->
+                                                    <div class="panelBtnScroll">
+                                                      <i class="btnScrollLeft glyphicon glyphicon-menu-left"></i>
+                                                      <i class="btnScrollRight glyphicon glyphicon-menu-right"></i>
+                                                    </div>-->
                                                 <!-- 增加悬浮的区域 -->
                                                 <div class="tab-content tabContentGiant ">
                                                     <div class="tab-pane active in tabContainerGiantGrid" layout="110"
@@ -1224,26 +1018,21 @@
                                                                     <div class="ModuleImageGiant layout-104 layout-color- module_18481677 clearfix">
                                                                         <!-- 主体 -->
                                                                         <div class='BodyCenter BodyCenter18481677 clearfix'>
-                                                                            <img class="image-animation"
-                                                                                 url="/comdata/997/201812/201812281053388479b3.png"
-                                                                                 src="static/img/201812281053388479b3.png"
-                                                                                 alt="JS001"/>
-                                                                            <div name='shade' class="Imagetitl">JS001
-                                                                            </div>
-                                                                            <script>$(function () {
+                                                                            <img class="image-animation" url="/comdata/997/201812/201812281053388479b3.png" src="static/img/201812281053388479b3.png" alt="JS001"/>
+                                                                            <div name='shade' class="Imagetitl">JS001 </div>
+                                                                            <script>
+                                                                                $(function () {
                                                                                     addScript('./skinp/modules/ModuleImageGiant/ModuleImage.js', function () {
                                                                                         ImageModuleResultfn('18481677', '104')
                                                                                     });
-                                                                                })</script>
+                                                                                })
+                                                                            </script>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id='Sub18468708_Tab7413_2'
-                                                                 class='ModuleContainer SubContainer TabSubGridContainer col-xs-3 col-sm-3 col-md-3 col-lg-3'
-                                                                 ismodulecontainer='true' JustContainer='true'>
-                                                                <div class="ModuleItem  StaticModule " wo="295"
-                                                                     id="module_18482129">
+                                                            <div id='Sub18468708_Tab7413_2' class='ModuleContainer SubContainer TabSubGridContainer col-xs-3 col-sm-3 col-md-3 col-lg-3' ismodulecontainer='true' JustContainer='true'>
+                                                                <div class="ModuleItem  StaticModule " wo="295" id="module_18482129">
                                                                     <div class="ModuleImageGiant layout-104 layout-color- module_18482129 clearfix">
                                                                         <!-- 主体 -->
                                                                         <div class='BodyCenter BodyCenter18482129 clearfix'>
@@ -1253,16 +1042,17 @@
                                                                                  alt="JS002"/>
                                                                             <div name='shade' class="Imagetitl">JS002
                                                                             </div>
-                                                                            <script>$(function () {
+                                                                            <script>
+                                                                                $(function () {
                                                                                     addScript('./skinp/modules/ModuleImageGiant/ModuleImage.js', function () {
                                                                                         ImageModuleResultfn('18482129', '104')
                                                                                     });
-                                                                                })</script>
+                                                                                })
+                                                                            </script>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="ModuleItem  StaticModule " wo="295"
-                                                                     id="module_18482325">
+                                                                <div class="ModuleItem  StaticModule " wo="295" id="module_18482325">
                                                                     <div class="ModuleImageGiant layout-104 layout-color- module_18482325 clearfix">
                                                                         <!-- 主体 -->
                                                                         <div class='BodyCenter BodyCenter18482325 clearfix'>
@@ -1281,11 +1071,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id='Sub18468708_Tab7413_3'
-                                                                 class='ModuleContainer SubContainer TabSubGridContainer col-xs-3 col-sm-3 col-md-3 col-lg-3'
-                                                                 ismodulecontainer='true' JustContainer='true'>
-                                                                <div class="ModuleItem  StaticModule " wo="295"
-                                                                     id="module_18482322">
+                                                            <div id='Sub18468708_Tab7413_3' class='ModuleContainer SubContainer TabSubGridContainer col-xs-3 col-sm-3 col-md-3 col-lg-3' ismodulecontainer='true' JustContainer='true'>
+                                                                <div class="ModuleItem  StaticModule " wo="295" id="module_18482322">
                                                                     <div class="ModuleImageGiant layout-104 layout-color- module_18482322 clearfix">
                                                                         <!-- 主体 -->
                                                                         <div class='BodyCenter BodyCenter18482322 clearfix'>
@@ -1951,17 +1738,13 @@
                                             <div class="imageTextGiant-Container imageTextContainer clearfix"
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(255, 255, 255); font-size: 30px;"><strong><span
-                                                                        style="color: rgb(255, 255, 255);">解</span></strong><strong>决铝合金门窗<span
-                                                                        style="color: rgb(255, 0, 0);">4</span>&nbsp;</strong><strong>大优势</strong></span>
+                                                    <p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(255, 255, 255); font-size: 30px;">
+                                                            {{--<strong><span style="color: rgb(255, 255, 255);">解决铝合金门窗</span></strong>--}}
+                                                            <strong><span style="color: rgb(255, 0, 0);">4</span>&nbsp;</strong>
+                                                            <strong>BIG PROBLEMS</strong></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(127, 127, 127); font-size: 10px;">ALLOY DOORS AND WINDOWS 5 BIG PROBLEMS</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="font-size: 12px; color: rgb(255, 255, 255);">
-                                  <img src="static/img/20181228153029ff3acd.png"/></span>
+                                                    <p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(127, 127, 127); font-size: 10px;">ALLOY DOORS AND WINDOWS 5 BIG PROBLEMS</span></p>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="font-size: 12px; color: rgb(255, 255, 255);"><img src="static/img/20181228153029ff3acd.png"/></span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -2006,9 +1789,9 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center; line-height: 1.75em;"><span
                                                                 style="color: rgb(255, 255, 255);"><strong><span
-                                                                        style="font-size: 36px;">解决铝合金门窗<span
-                                                                            style="font-size: 40px; color: rgb(255, 0, 0);">4</span>&nbsp;</span></strong><strong><span
-                                                                        style="font-size: 36px;">大优势</span></strong></span>
+                                                                        style="font-size: 36px;">SOLVE ALUMINUM ALLOY DOORS AND WINDOWS<span
+                                                                            style="font-size: 40px; color: rgb(255, 0, 0);">5</span>&nbsp;</span></strong><strong><span
+                                                                        style="font-size: 36px;">BIG PROBLEMS</span></strong></span>
                                                     </p>
                                                     <p style="text-align: center; line-height: 1.75em;"><span
                                                                 style="font-size: 12px; color: rgb(127, 127, 127);">SOLVE ALUMINUM ALLOY DOORS AND WINDOWS 5 BIG PROBLEMS</span>
@@ -2018,7 +1801,7 @@
                                   <img src="static/img/20181228153029ff3acd.png"/></span>
                                                     </p>
                                                     <p style="text-align: center; line-height: 2em;"><span
-                                                                style="font-size: 14px; color: rgb(127, 127, 127);">功能全面升级，成功的解决了铝合金门窗水密性、隔热性、隔音性、安全性四大痛点</span>
+                                                                style="font-size: 14px; color: rgb(127, 127, 127);">Fully upgraded functions have successfully solved the four pain points of water tightness, heat insulation, sound insulation and safety of aluminium alloy doors and windows.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -2758,7 +2541,7 @@
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p><span
-                                                                style="font-size: 36px; color: rgb(255, 255, 255);"><b>品牌故事</b></span>
+                                                                style="font-size: 36px; color: rgb(255, 255, 255);"><b>BRAND STORY</b></span>
                                                     </p>
                                                     <p><span style="font-size: 14px; color: rgb(255, 255, 255);">BRAND STORY</span>
                                                     </p>
@@ -2773,7 +2556,7 @@
                                                     <p><span
                                                                 style="font-size: 14px; color: rgb(255, 255, 255);"><br/></span>
                                                     </p>
-                                                    <p><span style="font-size: 14px; color: rgb(255, 255, 255);">某某门窗实业有限公司自创办以来，亿合人励精图治，辛勤耕耘。肩负着“卓越品质，厚德载福”的神圣企业使命...</span>
+                                                    <p><span style="font-size: 14px; color: rgb(255, 255, 255);">Keysun is a professional masking tape production, research and development company group. We sell building decor materi </span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -2787,7 +2570,7 @@
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18499700 clearfix'>
                                             <a href="/Content/468221.html" target="_self"
-                                               class="moduleButton Radial-Out">查看更多</a>
+                                               class="moduleButton Radial-Out">See more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2815,7 +2598,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">成立于</p>
+                                                        <p class="digital-title">Founded</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -2828,7 +2611,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">生产基地</p>
+                                                        <p class="digital-title">production base</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -2841,7 +2624,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">自主专利</p>
+                                                        <p class="digital-title">Independent Patent</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -2854,7 +2637,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">合作客户</p>
+                                                        <p class="digital-title">Collaborative customers</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2893,17 +2676,10 @@
                     <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0"
                          hideheight="150" hidewidth="760">
                         <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                            <p style="text-align: center;"><span
-                                        style="color: rgb(255, 255, 255); font-size: 30px;"><strong>品牌故事</strong></span>
-                            </p>
-                            <p style="text-align: center;"><span style="color: rgb(255, 255, 255);">BRAND STORY</span>
-                            </p>
-                            <p style="text-align: center;"><span
-                                        style="color: rgb(255, 255, 255);"><strong><br/></strong></span>
-                            </p>
-                            <p style="text-align: center;">
-                                <img src="static/img/20181228153029ff3acd.png"/>
-                            </p>
+                            <p style="text-align: center;"><span style="color: rgb(255, 255, 255); font-size: 30px;"><strong>BRAND STORY</strong></span></p>
+                            {{--<p style="text-align: center;"><span style="color: rgb(255, 255, 255);">BRAND STORY</span></p>--}}
+                            <p style="text-align: center;"><span style="color: rgb(255, 255, 255);"><strong><br/></strong></span></p>
+                            <p style="text-align: center;"><img src="static/img/20181228153029ff3acd.png"/></p>
                         </div>
                     </div>
                     <script>changeFontSize($('#module_18499613'));</script>
@@ -3091,7 +2867,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">成立于</p>
+                                                        <p class="digital-title">Founded</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -3104,7 +2880,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">生产基地</p>
+                                                        <p class="digital-title">production base</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -3117,7 +2893,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">自主专利</p>
+                                                        <p class="digital-title">Independent Patent</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -3130,7 +2906,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">合作客户</p>
+                                                        <p class="digital-title">Customer</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3166,7 +2942,7 @@
                                 </div>
                             </div>
                             <div id='Sub18515970_1'
-                                 class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12'
+                                 class='ModuleContainer SubContainer ModuleGridItem col-xs-12 col-sm-12 col-md-12 col-lg-12'
                                  positiontype='2' ismodulecontainer='true'>
                                 <div class="ModuleItem  StaticModule " wo="100" id="module_18515972">
                                     <div class="ModuleImageTextGiant layout-101 layout-color-red module_18515972 clearfix">
@@ -3175,18 +2951,14 @@
                                             <div class="imageTextGiant-Container imageTextContainer clearfix"
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="font-size: 30px;"><span
-                                                                    style="color: rgb(75, 115, 176);"><strong>铝合金门窗</strong></span><span
-                                                                    style="color: rgb(102, 102, 102);"><strong>新闻动态</strong></span></span>
+                                                    <p style="text-align: center; line-height: 1.75em;">
+                                                        <span style="font-size: 30px;">
+                                                            <span style="color: rgb(75, 115, 176);"><strong>News</strong></span>
+                                                            <span style="color: rgb(102, 102, 102);"><strong>information</strong></span>
+                                                        </span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">DOORS AND WINDOWS</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="color: rgb(191, 191, 191); font-size: 12px;">
-                                  <img src="static/img/20181227174316f35d88.png"/></span>
-                                                    </p>
+                                                    <p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">DOORS AND WINDOWS</span></p>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;"><img src="static/img/20181227174316f35d88.png"/></span></p>
                                                 </div>
                                             </div>
                                             <script>changeFontSize($('#module_18515972'));</script>
@@ -3200,9 +2972,11 @@
                             </div>
                         </div>
                     </div>
-                    <script type="text/javascript">addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
+                    <script type="text/javascript">
+                        addScript('./skinp/modules/ModuleGridGiant/modulegrid.js', function () {
                             initGridGiant("18515970", {isFloat: "0"});
-                        });</script>
+                        });
+                    </script>
                 </div>
             </div>
         </div>
@@ -3230,9 +3004,9 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center; line-height: 1.75em;"><span
                                                                 style="color: rgb(75, 115, 176);"><strong><span
-                                                                        style="font-size: 36px;">铝合金门窗</span></strong></span><span
+                                                                        style="font-size: 36px;">News </span></strong></span><span
                                                                 style="color: rgb(102, 102, 102);"><strong><span
-                                                                        style="font-size: 36px;">新闻动态</span></strong></span>
+                                                                        style="font-size: 36px;">information</span></strong></span>
                                                     </p>
                                                     <p style="text-align: center; line-height: 1.75em;"><span
                                                                 style="color: rgb(191, 191, 191); font-size: 12px;">ALUMINUM ALLOY DOORS AND WINDOWS</span>
@@ -3241,9 +3015,7 @@
                                                                 style="color: rgb(191, 191, 191); font-size: 12px;">
                                   <img src="static/img/20181227174316f35d88.png"/></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span
-                                                                style="color: rgb(127, 127, 127); font-size: 14px;">走近每一个追求时尚的人，让他们拥有自己的性格，自己的居家空间！喜欢，所以悦从心来</span>
-                                                    </p>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(127, 127, 127); font-size: 14px;">Approach everyone who pursues fashion, let them have their own personality, their own home space! I like it, so I enjoy it.</span></p>
                                                 </div>
                                             </div>
                                             <script>changeFontSize($('#module_18501159'));</script>
@@ -3475,7 +3247,7 @@
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18502625 clearfix'>
                                             <a href="News/News.html" target="_self"
-                                               class="moduleButton Radial-Out">查看更多</a>
+                                               class="moduleButton Radial-Out">See more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -3517,17 +3289,16 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center; line-height: 1.75em;">
                                                         <span style="color: rgb(255, 255, 255);"><strong><span
-                                                                        style="font-size: 36px;">合作伙伴</span></strong></span>
+                                                                        style="font-size: 36px;">PARTNER</span></strong></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 1.75em;">
-                                                        <span style="font-size: 12px; color: rgb(255, 255, 255);">PARTNER</span>
+                                                    {{--<p style="text-align: center; line-height: 1.75em;"><span style="font-size: 12px; color: rgb(255, 255, 255);">PARTNER</span></p>--}}
+                                                    <p style="text-align: center; line-height: 2em;">
+                                                        <span style="font-size: 12px; color: rgb(255, 255, 255);">
+                                                            <img src="static/img/20181228153029ff3acd.png"/>
+                                                        </span>
                                                     </p>
                                                     <p style="text-align: center; line-height: 2em;">
-                                                        <span style="font-size: 12px; color: rgb(255, 255, 255);"><img
-                                                                    src="static/img/20181228153029ff3acd.png"/></span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;">
-                                                        <span style="font-size: 14px; color: rgb(255, 255, 255);">与强者同行，互为互利共同发展</span>
+                                                        <span style="font-size: 14px; color: rgb(255, 255, 255);">Walk with the strong, mutually beneficial and common development</span>
                                                     </p>
                                                 </div>
                                             </div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Journalism;
 use App\NewType;
+use App\Type;
 use Illuminate\Http\Request;
 
 class JournalismController extends Controller
@@ -25,7 +26,8 @@ class JournalismController extends Controller
         }
 
         $newTypes = NewType::all();
-        return view('new.index',compact('journalisms', 'newTypes'));
+        $types = Type::all();
+        return view('new.index',compact('journalisms', 'newTypes', 'types'));
     }
 
 
@@ -39,6 +41,7 @@ class JournalismController extends Controller
     {
         $id = request('id');
         $newTypes = NewType::all();
+        $types = Type::all();
         $journalism = Journalism::find($id);
 
         // 获取 “上一篇” 的 ID
@@ -47,17 +50,6 @@ class JournalismController extends Controller
         // 同理，获取 “下一篇” 的 ID
         $nextNewId = Journalism::where('id', '>', $id)->min('id');
         $next_new = Journalism::find($nextNewId);
-        return view('new.detail', compact('journalism', 'newTypes','pre_new','next_new'));
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Journalism  $journalism
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Journalism $journalism)
-    {
-        //
+        return view('new.detail', compact('journalism', 'newTypes','pre_new','next_new', 'types'));
     }
 }
