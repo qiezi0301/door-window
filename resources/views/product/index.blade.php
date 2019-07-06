@@ -83,52 +83,16 @@
                                             <header class="class-title classify"><span class="OneRow class-title-text">产品中心</span><span class="class-title-icon icon iconfont icon-jia" aria-hidden="true"></span>
                                             </header>
                                             <ul class="one-classify">
+                                                @foreach($types as $type)
                                                 <li class="main-class-item">
-                                                    <a href="{{ route('product') }}" target="_self">
+                                                    <a href="/product/{{$type->id}}" target="_self">
                                                         <p style="display: block; position: absolute;">
                                                             <i class="main-class-colorlump"></i>
-                                                        </p><span class="OneRow main-class-text">推拉窗</span>
+                                                        </p><span class="OneRow main-class-text">{{$type->name}}</span>
                                                     </a>
                                                 </li>
-                                                <li class="main-class-item">
-                                                    <a href="{{ route('product') }}" target="_self">
-                                                        <p style="display: block; position: absolute;">
-                                                            <i class="main-class-colorlump"></i>
-                                                        </p><span class="OneRow main-class-text">铝包木</span>
-                                                    </a>
-                                                </li>
-                                                <li class="main-class-item">
-                                                    <a href="{{ route('product') }}" target="_self">
-                                                        <p style="display: block; position: absolute;">
-                                                            <i class="main-class-colorlump"></i>
-                                                        </p><span class="OneRow main-class-text">沐浴房</span>
-                                                    </a>
-                                                </li>
-                                                <li class="main-class-item">
-                                                    <a href="{{ route('product') }}" target="_self">
-                                                        <p style="display: block; position: absolute;">
-                                                            <i class="main-class-colorlump"></i>
-                                                        </p><span class="OneRow main-class-text">阳光房</span>
-                                                    </a>
-                                                </li>
-                                                <li class="main-class-item">
-                                                    <a href="{{ route('product') }}" target="_self">
-                                                        <p style="display: block; position: absolute;">
-                                                            <i class="main-class-colorlump"></i>
-                                                        </p><span class="OneRow main-class-text">木门</span>
-                                                    </a>
-                                                </li>
-                                                <li class="main-class-item">
-                                                    <a href="{{ route('product') }}" target="_self">
-                                                        <p style="display: block; position: absolute;">
-                                                            <i class="main-class-colorlump"></i>
-                                                        </p><span class="OneRow main-class-text">平开门</span>
-                                                    </a>
-                                                </li>
+                                                @endforeach
                                             </ul>
-                                            <script>addScript('../skinp/modules/ModuleCommonClsGiant/commoncls.js', function () {
-                                                    initCommonClsGiant(18510613,'102')
-                                                });</script>
                                         </div>
                                     </div>
                                 </div>
@@ -143,10 +107,10 @@
                                             <ul class="pro-container clearfix">
                                                 @foreach($products as $product)
                                                 <li class="pro-item col-xs-2 col-sm- col-md- col-lg-3" pc-col='3'>
-                                                    <a href="{{ route('productDetail') }}" target="_blank" >
+                                                    <a href="/productDetail/{{$product->id}}" target="_blank" >
                                                         <div class="pro-img">
                                                             <div class="dummy"></div>
-                                                            <img src="upload/{{$product->thumb}}" alt="DO005" title="DO005">
+                                                            <img src="{{asset('upload')}}/{{$product->thumb}}" alt="DO005" title="DO005">
                                                         </div>
                                                         <div class="pro-tit">
                                                             <div class="pro-n-p">

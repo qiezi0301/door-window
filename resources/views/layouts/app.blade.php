@@ -89,7 +89,7 @@
                                 <i class="main-class-colorlump"></i>
                             </p>
                             <i class="about-us fl" style="background: none"></i>
-                            <p class="fl maxlarge">首页</p>
+                            <p class="fl maxlarge">Home</p>
                         </a>
                     </li>
                     <li class="clearfix border1px">
@@ -98,17 +98,17 @@
                                 <i class="main-class-colorlump"></i>
                             </p>
                             <i class="about-us fl" style="background: none"></i>
-                            <p class="fl maxlarge">品牌故事</p><span class="more fr iconfont icon-jia"></span>
+                            <p class="fl maxlarge">Brand Story</p><span class="more fr iconfont icon-jia"></span>
                         </a>
                         <ul class="clearfix subnav navul" style="display: none;">
                             <li class="borderTop1px">
                                 <a href="{{ route('culture') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">品牌文化</p>
+                                    <p class="fl maxmiddle">Brand Culture</p>
                                 </a>
                             </li>
                             <li class="borderTop1px">
                                 <a href="{{ route('team') }}" class="link " target="_self">
-                                    <p class="fl maxmiddle">公司团队</p>
+                                    <p class="fl maxmiddle">Company Team</p>
                                 </a>
                             </li>
                         </ul>
@@ -119,7 +119,7 @@
                                 <i class="main-class-colorlump"></i>
                             </p>
                             <i class="about-us fl" style="background: none"></i>
-                            <p class="fl maxlarge">产品中心</p><span class="more fr iconfont icon-jia"></span>
+                            <p class="fl maxlarge">Product Center</p><span class="more fr iconfont icon-jia"></span>
                         </a>
                         <ul class="clearfix subnav navul" style="display: none;">
                             <li class="borderTop1px">
@@ -160,7 +160,7 @@
                                 <i class="main-class-colorlump"></i>
                             </p>
                             <i class="about-us fl" style="background: none"></i>
-                            <p class="fl maxlarge">合作加盟</p>
+                            <p class="fl maxlarge">Partnership</p>
                         </a>
                     </li>
                     <li class="clearfix border1px">
@@ -169,7 +169,7 @@
                                 <i class="main-class-colorlump"></i>
                             </p>
                             <i class="about-us fl" style="background: none"></i>
-                            <p class="fl maxlarge">新闻中心</p><span class="more fr iconfont icon-jia"></span>
+                            <p class="fl maxlarge">News</p><span class="more fr iconfont icon-jia"></span>
                         </a>
                         <ul class="clearfix subnav navul" style="display: none;">
                             @foreach($newTypes as $newType)
@@ -187,7 +187,7 @@
                                 <i class="main-class-colorlump"></i>
                             </p>
                             <i class="about-us fl" style="background: none"></i>
-                            <p class="fl maxlarge">联系我们</p>
+                            <p class="fl maxlarge">Contact us</p>
                         </a>
                     </li>
                 </ul>
@@ -313,7 +313,7 @@
                                                          onmouseover="showSubMenu(this)"
                                                          onmouseout="hideSubMenu(this, event)">
                                                         <a href="{{ url('/') }}" target="_self" style="cursor:pointer"
-                                                           class='main-nav-item fontm OneRow'>首页</a>
+                                                           class='main-nav-item fontm OneRow'>Home</a>
                                                         <!--获取二级菜单-->
                                                         <div id="SubMenu_586221_18467980" class='sub-nav-item-group'>
                                                         </div>
@@ -321,18 +321,18 @@
                                                     <div class='main-nav-item-group' id="Menu_586223_18467980"
                                                          onmouseover="showSubMenu(this)"
                                                          onmouseout="hideSubMenu(this, event)">
-                                                        <a href="{{ route('brand') }}" target="_self" style="cursor:pointer" class='main-nav-item fontm OneRow'>品牌故事</a>
+                                                        <a href="{{ route('brand') }}" target="_self" style="cursor:pointer" class='main-nav-item fontm OneRow'>Brand Story</a>
                                                         <!--获取二级菜单-->
                                                         <div id="SubMenu_586223_18467980" class='sub-nav-item-group'>
-                                                            <a href="{{ route('culture') }}" target="_self" class='sub-nav-item OneRow'>品牌文化</a>
-                                                            <a href="{{ route('team') }}" target="_self" class='sub-nav-item OneRow'>公司团队</a>
+                                                            <a href="{{ route('culture') }}" target="_self" class='sub-nav-item OneRow'>Brand Culture</a>
+                                                            <a href="{{ route('team') }}" target="_self" class='sub-nav-item OneRow'>Company Team</a>
                                                         </div>
                                                     </div>
                                                     <div class='main-nav-item-group' id="Menu_586224_18467980"
                                                          onmouseover="showSubMenu(this)"
                                                          onmouseout="hideSubMenu(this, event)">
                                                         <a href="{{ route('product') }}" target="_self"
-                                                           style="cursor:pointer" class='main-nav-item fontm OneRow'>产品中心</a>
+                                                           style="cursor:pointer" class='main-nav-item fontm OneRow'>Product Center</a>
                                                         <!--获取二级菜单-->
                                                         <div id="SubMenu_586224_18467980" class='sub-nav-item-group'>
                                                             <a href="{{ route('product') }}" target="_self"
@@ -353,7 +353,7 @@
                                                          onmouseover="showSubMenu(this)"
                                                          onmouseout="hideSubMenu(this, event)">
                                                         <a href="{{ route('cooperation') }}" target="_self"
-                                                           style="cursor:pointer" class='main-nav-item fontm OneRow'>合作加盟</a>
+                                                           style="cursor:pointer" class='main-nav-item fontm OneRow'>Partnership</a>
                                                         <!--获取二级菜单-->
                                                         <div id="SubMenu_586226_18467980" class='sub-nav-item-group'>
                                                         </div>
@@ -362,7 +362,7 @@
                                                          onmouseover="showSubMenu(this)"
                                                          onmouseout="hideSubMenu(this, event)">
                                                         <a href="{{ route('new') }}" target="_self" style="cursor:pointer"
-                                                           class='main-nav-item fontm OneRow'>新闻中心</a>
+                                                           class='main-nav-item fontm OneRow'>News</a>
                                                         <!--获取二级菜单-->
                                                         <div id="SubMenu_586230_18467980" class='sub-nav-item-group'>
                                                             @foreach($newTypes as $newType)
@@ -374,7 +374,7 @@
                                                          onmouseover="showSubMenu(this)"
                                                          onmouseout="hideSubMenu(this, event)">
                                                         <a href="{{ route('contact') }}" target="_self"
-                                                           style="cursor:pointer" class='main-nav-item fontm OneRow'>联系我们</a>
+                                                           style="cursor:pointer" class='main-nav-item fontm OneRow'>Contact us</a>
                                                         <!--获取二级菜单-->
                                                         <div id="SubMenu_586232_18467980" class='sub-nav-item-group'>
                                                         </div>
@@ -440,17 +440,17 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center;">
                                                         <a href="{{ route('brand') }}" target="_self" style="font-size: 14px; color: rgb(255, 255, 255); text-decoration: none;">
-                                                            <span style="color: rgb(255, 255, 255); text-decoration: none;">品牌故事</span>
+                                                            <span style="color: rgb(255, 255, 255); text-decoration: none;">Brand Story</span>
                                                         </a>
                                                         <span style="color: rgb(255, 255, 255); text-decoration: none;">｜
                                   <a href="{{ route('product') }}" target="_self" style="font-size: 14px; color: rgb(255, 255, 255); text-decoration: none;">
-                                      <span style="color: rgb(255, 255, 255); text-decoration: none;">产品中心</span>
+                                      <span style="color: rgb(255, 255, 255); text-decoration: none;">Product Center</span>
                                   </a>｜
                                   <a href="{{ route('cooperation') }}" target="_self" style="color: rgb(0, 0, 238); font-size: 14px; text-decoration: none;">
-                                      <span style="font-size: 14px; color: rgb(255, 255, 255); text-decoration: none;">合作加盟</span>
+                                      <span style="font-size: 14px; color: rgb(255, 255, 255); text-decoration: none;">Partnership</span>
                                   </a>｜<span style="color: rgb(255, 255, 255); text-decoration: none;">&nbsp;</span>
                                   <a href="{{ route('new') }}" target="_self" style="font-size: 14px; color: rgb(255, 255, 255); text-decoration: none;">
-                                      <span style="color: rgb(255, 255, 255); text-decoration: none;">新闻中心</span>
+                                      <span style="color: rgb(255, 255, 255); text-decoration: none;">News</span>
                                   </a></span>
                                                     </p>
                                                 </div>
@@ -658,7 +658,7 @@
             <li style="width:33.33%;" itemid=7>
                 <a onclick="showHomePage()" >
                     <span class="icon homePage" style=""></span>
-                    <span class="itemText">首页</span></a>
+                    <span class="itemText">Home</span></a>
             </li>
             <li style="width:33.33%;display:none;" itemid=8>
                 <a href="">

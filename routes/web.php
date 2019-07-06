@@ -38,11 +38,8 @@ Route::get('team', function () {
 
 //产品中心
 Route::get('/product', 'ProductController@index')->name('product');
-
-Route::get('/productDetail', function () {
-    $newTypes = NewType::all();
-    return view('product.detail',compact('newTypes'));
-})->name('productDetail');
+Route::get('/product/{tid}', 'ProductController@index');
+Route::get('/productDetail/{id}', 'ProductController@show');
 
 //合作加盟
 Route::get('/cooperation', function () {

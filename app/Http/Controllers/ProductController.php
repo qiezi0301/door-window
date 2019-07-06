@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\NewType;
 use App\Product;
+use App\Type;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -14,31 +16,18 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product:: orderBy('id','desc')->paginate(9);
-//                dd($products);
-        return view('product.index')->with('products', $products);
+        $tid = request('tid');
+        if($tid){
+            $products = Product:: orderBy('id','desc')->where('tid',$tid)->paginate(10);
+        }else{
+            $products = Product:: orderBy('id','desc')->paginate(10);
+        }
+
+        $newTypes = NewType::all();
+        $types = Type::all();
+        return view('product.index',compact('products', 'newTypes', 'types'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
 
     /**
      * Display the specified resource.
@@ -48,40 +37,21 @@ class ProductController extends Controller
      */
     public function show(Product $product)
     {
-        //
-    }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Product $product)
-    {
-        //
-    }
+        $id = request('id');
+        $newTypes = NewType::all();
+        $types = Type::all();
+        $product = Product::find($id);
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Product $product)
-    {
-        //
-    }
+//        dd($product->pictures);
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Product $product)
-    {
-        //
+        // 获取 “上一篇” 的 ID
+        $prePID = Product::where('id', '<', $id)->max('id');
+        $pre_product = Product::find($prePID);
+
+        // 同理，获取 “下一篇” 的 ID
+        $nextPId = Product::where('id', '>', $id)->min('id');
+        $next_product = Product::find($nextPId);
+        return view('product.detail', compact('product', 'newTypes','types', 'pre_product','next_product'));
     }
 }

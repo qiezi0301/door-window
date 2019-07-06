@@ -20,17 +20,21 @@
                 <div class='BodyCenter BodyCenter18515551 clearfix'>
                     <div class="news-details-item">
                         <input type="hidden" class="ArticleID" value="887677" /><h2 class="newsDetailTitle">{{ $journalism->title }}</h2>
-                        <div class="newsSource"><span>关注：{{ $journalism->views_count }}</span><span>发表时间：{{ $journalism->updated_at }}</span>
+                        <div class="newsSource"><span>views：{{ $journalism->views_count }}</span><span>Publication time：{{ $journalism->updated_at }}</span>
                         </div>
                         <section  id="readMore" >
                             <article style="padding:10px" id="contentNewW887677">
-                                {{ $journalism->content }}
+                                {!! $journalism->content !!}
                             </article>
                         </section>
                         <!--标签-->
                         <div class="PrevNext"><span class="prev">
-                            <a href="/newDetail/{{$pre_new->id}}">Last article&nbsp;:&nbsp;{{ $pre_new->title }}</a></span><span class="next">
-                            <a href="/newDetail/{{$next_new->id}}">Next article&nbsp;:&nbsp;{{ $next_new->title }}</a></span>
+                            @if($pre_new)
+                                <a href="/newDetail/{{$pre_new->id}}">Last article&nbsp;:&nbsp;{{ $pre_new->title }}</a></span><span class="next">
+                            @endif
+                            @if($next_new)
+                                <a href="/newDetail/{{$next_new->id}}">Next article&nbsp;:&nbsp;{{ $next_new->title }}</a></span>
+                            @endif
                         </div>
                     </div>
 

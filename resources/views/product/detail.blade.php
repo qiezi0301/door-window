@@ -44,13 +44,25 @@
                                             <i class='iconfont icon-guanbi' style='position:absolute;right:7%;top:0%;font-size:18px;color:white;display:none;'></i>
                                         </div>
                                         <div class="swiper-wrapper" >
-                                            <div class="swiper-slide" rel = "../static/img/20181228093919DB5FDFEF76D44CD6_b.png"  >
-                                                <div class="inSwiper-slide"  style="background:url(../static/img/20181228093919DB5FDFEF76D44CD6_b.png) center no-repeat;background-size:contain" data-old-src = "/comdata/997/product/20181228093919DB5FDFEF76D44CD6_b.png">
-                                                    <!--手机端图片有个长按功能，必须放img进去不然无法保存图片-->
-                                                    <img class="inSlide-size mobile-inSlide-size" src="../static/img/20181228093919DB5FDFEF76D44CD6_b.png" alt="" >
-                                                    <img class="inSlide-size pc-inSlide-size" src="../static/img/touming.png" alt="">
+                                            @if($product->pictures)
+                                                @foreach($product->pictures as $picture)
+                                                    <div class="swiper-slide" rel = "{{asset('upload')}}/{{ $picture }}"  >
+                                                        <div class="inSwiper-slide"  style="background:url({{asset('upload')}}/{{ $picture }}) center no-repeat;background-size:contain" data-old-src = "{{asset('upload')}}/{{ $picture }}">
+                                                            <!--手机端图片有个长按功能，必须放img进去不然无法保存图片-->
+                                                            <img class="inSlide-size mobile-inSlide-size" src="{{asset('upload')}}/{{ $picture }}" alt="" >
+                                                            <img class="inSlide-size pc-inSlide-size" src="{{ asset('../static/img/touming.png') }}" alt="">
+                                                        </div>
+                                                    </div>
+                                                @endforeach
+                                            @else
+                                                <div class="swiper-slide" rel = "{{asset('upload')}}/{{ $product->thumb }}"  >
+                                                    <div class="inSwiper-slide"  style="background:url({{asset('upload')}}/{{ $product->thumb }}) center no-repeat;background-size:contain" data-old-src = "{{asset('upload')}}/{{ $product->thumb }}">
+                                                        <!--手机端图片有个长按功能，必须放img进去不然无法保存图片-->
+                                                        <img class="inSlide-size mobile-inSlide-size" src="{{asset('upload')}}/{{ $product->thumb }}" alt="" >
+                                                        <img class="inSlide-size pc-inSlide-size" src="{{ asset('../static/img/touming.png') }}" alt="">
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            @endif
                                         </div>
                                         <div class="swiper-pagination">
                                         </div>
@@ -58,21 +70,33 @@
                                     </div>
                                     <a class="back-btn" href="javascript:;">
                                         <img src="../static/img/back1.png" alt="">
-                                    </a><span class="mob-enquiry" href="javascript:void(0)" style="z-index: 1000">
-                        <i class="iconfont icon-xunpan1" style="color: #7F7F7F; font-size: 32px"></i></span>
-                                    <!--mobile fujian-->
-                                    <a href="javascript:;" class="img-text-detail">图文<br/>详情
                                     </a>
+                                    <span class="mob-enquiry" href="javascript:void(0)" style="z-index: 1000">
+                                        <i class="iconfont icon-xunpan1" style="color: #7F7F7F; font-size: 32px"></i>
+                                    </span>
+                                    <!--mobile fujian-->
+                                    <a href="javascript:;" class="img-text-detail">图文<br/>详情</a>
                                 </div>
                                 <div class="gallery-thumbswb detail-dialog-control18480272">
                                     <div id="pro-thumbnail" class="swiper-container gallery-thumbs">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="inSwiper-slide" style="background:url(../static/img/20181228093919DB5FDFEF76D44CD6_s.png) center no-repeat;background-size: contain" data-old-src = "/comdata/997/product/20181228093919DB5FDFEF76D44CD6_b.png">
-                                                    <img class="inSlide-size mobile-inSlide-size" src="../static/img/20181228093919DB5FDFEF76D44CD6_b.png" alt="" >
-                                                    <img class="inSlide-size pc-inSlide-size" src="../static/img/touming.png" alt="">
+                                            @if($product->pictures)
+                                                @foreach($product->pictures as $picture)
+                                                    <div class="swiper-slide">
+                                                        <div class="inSwiper-slide" style="background:url({{asset('upload')}}/{{ $picture }}) center no-repeat;background-size: contain" data-old-src = "{{asset('upload')}}/{{ $picture }}">
+                                                            <img class="inSlide-size mobile-inSlide-size" src="{{asset('upload')}}/{{ $picture }}" alt="" >
+                                                            <img class="inSlide-size pc-inSlide-size" src="{{ asset('../static/img/touming.png') }}" alt="">
+                                                        </div>
+                                                    </div>
+                                                @endforeach
+                                            @else
+                                                <div class="swiper-slide">
+                                                    <div class="inSwiper-slide" style="background:url({{asset('upload')}}/{{ $product->thumb }}) center no-repeat;background-size: contain" data-old-src = "{{asset('upload')}}/{{ $product->thumb }}">
+                                                        <img class="inSlide-size mobile-inSlide-size" src="{{asset('upload')}}/{{ $product->thumb }}" alt="" >
+                                                        <img class="inSlide-size pc-inSlide-size" src="{{ asset('../static/img/touming.png') }}" alt="">
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            @endif
                                         </div>
                                     </div><!--
                       <img class="pro-thumbnail-next pro-thumbnail-direction" src="/skinp/modules/ModuleProductDetailGiant/images/back.png" alt="">
@@ -81,11 +105,18 @@
                             </div>
                             <div class="introduce ">
                                 <div class="introduceTop">
-                                    <p class="pro-row pd-b14 mobilepd"><span class="pro-name" title="JS005">JS005</span><!--<span class="icon-qrcode">
-                          <img src="/skinp/modules/ModuleProductDetailGiant/images/qrcode.png" alt=""></span>-->
+                                    <p class="pro-row pd-b14 mobilepd"><span class="pro-name">{{ $product->name }}</span>
+                                        <!--<span class="icon-qrcode">
+                                            <img src="/skinp/modules/ModuleProductDetailGiant/images/qrcode.png" alt="">
+                                            </span>-->
                                     </p>
-                                    <p class="pro-row old-price"><span class="pro-price colorSeries">待议</span><span class="sharAndCollect"><strong class="pro-shar shareImg-mobile-btn">
-                            <i class="iconfont icon-fenxiang2 collect-icon "></i><b>分享</b></strong></span>
+                                    <p class="pro-row old-price">
+                                        <span class="pro-price colorSeries">待议</span>
+                                        <span class="sharAndCollect">
+                                            <strong class="pro-shar shareImg-mobile-btn">
+                                                <i class="iconfont icon-fenxiang2 collect-icon "></i><b>分享</b>
+                                            </strong>
+                                        </span>
                                     </p>
                                 </div>
                                 <div class="introduceBottom">
@@ -94,8 +125,7 @@
                                             <i class="iconfont icon-fenxiang2" style="    padding-right:7px;font-size: 13px;"></i>分享
                                             <div class="pc-share-list-wb">
                                                 <ul class="pc-share-list clear_floatx">
-                                                    <li class="pc-share-list-text"><span>分享到：</span>
-                                                    </li>
+                                                    <li class="pc-share-list-text"><span>分享到：</span></li>
                                                     <li class="inpc-share" data-cmd="qzone">
                                                         <img src="../images/qzone.jpg" alt="">
                                                     </li>
@@ -114,7 +144,7 @@
                                     </p>
                                 </div>
                                 <div class="introduceBottom">
-                                    <button class="enquiry" type="button" style="width: 35%;height: 38px;border-width: 1px;border-style:solid;">立即询盘
+                                    <button class="enquiry" type="button" style="width: 35%;height: 38px;border-width: 1px;border-style:solid;">立即询盘22
                                     </button>
                                 </div>
                             </div>
@@ -128,16 +158,32 @@
                                 </ul>
                             </div>
                             <div style="height: 1px;background: #dbdbdb;">
+
                             </div>
                             <div class="particularsMain tab-content clearfix">
                                 <div class="tab-pane fade in active" id="home018480272">
+                                    {!! $product->content !!}
                                 </div>
                             </div>
                         </div>
-                        <div class="pro-chang-box clear_floatx"><span class="por-prev fl change-btn"></span><span  class="por-next fr change-btn"><span class="next">
-                      <a href="/ProductDetail/2511246.html">下一个&nbsp;:&nbsp;JS004</a></span></span>
+                        <div class="pro-chang-box clear_floatx">
+                            <span class="por-prev fl change-btn">
+                                @if($pre_product)
+                                    <span class="next">
+                                        <a href="/productDetail/{{$pre_product->id}}">pre&nbsp;:&nbsp;{{$pre_product->name}}</a>
+                                    </span>
+                                @endif
+                            </span>
+                            <span  class="por-next fr change-btn">
+                                @if($next_product)
+                                    <span class="next">
+                                        <a href="/productDetail/{{$next_product->id}}">next&nbsp;:&nbsp;{{$next_product->name}}</a>
+                                    </span>
+                                @endif
+                            </span>
                         </div>
-                        <script type="text/javascript">function createQrcodeImg(){
+                        <script type="text/javascript">
+                            function createQrcodeImg(){
                                 var shareContent = document.querySelector("#shareContent");// 需要绘制的部分的 (原生）dom 对象 ，注意容器的宽度不要使用百分比，使用固定宽度，避免缩放问题
                                 var width = shareContent.offsetWidth;  // 获取(原生）dom 宽度
                                 var height = shareContent.offsetHeight; // 获取(原生）dom 高
@@ -239,7 +285,8 @@
                                 clipboard.on('error', function(e) {
                                     prompt('复制失败，请选中后手动复制！', window.location.href);
                                 });
-                            });</script>
+                            });
+                        </script>
                         <style type="text/css">.html2canvas{width: 375px; display: none;}
                             #shareContent{width: 375px; position: fixed; top: 600px; z-index: 1; }
                             .pro-share-qrcode{background-color: #fff;}
@@ -270,7 +317,7 @@
                         </style>
                         <div class="html2canvas">
                             <div class="pro-share-qrcode">
-                                <div class="pro-name-deail">JS005
+                                <div class="pro-name-deail">{{ $product->name }}
                                 </div>
                                 <div class="pro-img-deail ">
                                 </div>
@@ -367,8 +414,10 @@
                             <div class="enquiryMobileCut">
                             </div>
                             <!--产品浏览列表-->
-                            <div id="enquiryProDiv18480272"   class="enquiryProDiv" ><span  class="enquiryClose" >
-                          <i class='iconfont icon-guanbi' style="font-size: 12px"></i></span>
+                            <div id="enquiryProDiv18480272"   class="enquiryProDiv" >
+                                <span  class="enquiryClose" >
+                                    <i class='iconfont icon-guanbi' style="font-size: 12px"></i>
+                                </span>
                                 <p class="enquiryProTitle" >咨询产品：</p>
                                 <!--做到手机端要隐藏此线条-->
                                 <hr  class="enquiryProHr"/>
@@ -378,8 +427,10 @@
                                 </div>
                             </div>
                             <!--无产品时候的显示-->
-                            <div id="enquiryNonePorduct18480272"><span  class="enquiryClose" >
-                          <i class='iconfont icon-guanbi' style="font-size: 12px"></i></span>
+                            <div id="enquiryNonePorduct18480272">
+                                <span  class="enquiryClose" >
+                                    <i class='iconfont icon-guanbi' style="font-size: 12px"></i>
+                                </span>
                                 <div  class="enquiryNonePorduct">
                                     <img src="../static/img/enquiryNoPro.png" />
                                     <p class="enquiryNoProText" >你还没有添加任何产品！</p>
@@ -391,7 +442,8 @@
                     </div>
                     <div style="width: 100%; left: 0px; top: 0px; height: 100%; position: fixed; user-select: none; z-index:999;background-color: #000;opacity: .3;filter: alpha(opacity=30);display: none" id="dask18480272">
                     </div>
-                    <script>var moduleId;
+                    <script>
+                        var moduleId;
                         $(function(){
                             //show的回调
                             var scrollTop
@@ -585,8 +637,10 @@
                             $('body').css({'overflow-y':'auto','top':''})
                             var toTop = $(window).scrollTop()
                             $(window).scrollTop(toTop)
-                        })</script>
-                    <style>.enquiryProList {
+                        })
+                    </script>
+                    <style>
+                        .enquiryProList {
                             text-align: center;
                         }
                         .enquiryProList img{
@@ -915,10 +969,19 @@
                             <!-- 内容区 -->
                             <div class="tab-content tb-viewer-contents">
                                 <!-- 查看原图 -->
-                                <div class="tab-pannel-item">
-                                    <a class="tb-viewer-original-pic" href="/comdata/997/product/20181228093919DB5FDFEF76D44CD6_b.png" target="_blank" >查看原图</a>
-                                    <img src="../static/img/20181228093919DB5FDFEF76D44CD6_b.png" class="tab-pannel-image">
-                                </div>
+                                @if($product->pictures)
+                                    @foreach($product->pictures as $picture)
+                                        <div class="tab-pannel-item">
+                                            <a class="tb-viewer-original-pic" href="{{asset('upload')}}/{{ $picture }}" target="_blank" >查看原图</a>
+                                            <img src="{{asset('upload')}}/{{ $picture }}" class="tab-pannel-image">
+                                        </div>
+                                    @endforeach
+                                @else
+                                    <div class="tab-pannel-item">
+                                        <a class="tb-viewer-original-pic" href="{{asset('upload')}}/{{ $product->thumb }}" target="_blank" >查看原图</a>
+                                        <img src="{{asset('upload')}}/{{ $product->thumb }}" class="tab-pannel-image">
+                                    </div>
+                                @endif
                             </div>
                             <div class="tb-viewer-control"><span class="iconfont icon-xiangyoujiantou J_Viewer-arrow"></span>
                             </div>
@@ -927,13 +990,13 @@
                             <!-- 选择项 -->
                             <!-- 关闭按钮 -->
                             <i class="tb-viewer-icon iconfont icon-guanbi"></i>
-                            <!-- 展示标题 --><h3 class="tb-viewer-title" title="JS005">JS005</h3>
+                            <!-- 展示标题 --><h3 class="tb-viewer-title" title="{{ $product->name }}">{{ $product->name }}</h3>
                             <ul class="tb-viewer-indicators clearfix">
                                 <li class="tb-viewer-thumb">
-                                    <img src="../static/img/20181228093919DB5FDFEF76D44CD6_b.png">
+                                    <img src="{{asset('upload')}}/{{ $product->thumb }}">
                                 </li>
                             </ul>
-                            <a href="javascript:;" class="tb-viewer-btn J_ViewerXunPan" >立即询盘</a>
+                            <a href="javascript:;" class="tb-viewer-btn J_ViewerXunPan" >立即询盘11</a>
                         </div>
                     </div>
                     <script type="text/tmplate" id="tmpl-18480272"><div style="width: 100%; left: 0px; top: 0px; height: 100%; position: fixed; user-select: none; z-index:999;background-color: #000;opacity: .3;filter: alpha(opacity=30);" class="ks-overlay-mask"></div></script>
@@ -1011,7 +1074,8 @@
                     </div>
                     <div style="width: 100%; left: 0px; top: 0px; height: 100%; position: fixed; user-select: none; z-index:999;background-color: #000;opacity: .3;filter: alpha(opacity=30);display: none" id="dask18480272">
                     </div>
-                    <script>var moduleId;
+                    <script>
+                        var moduleId;
                         $(function(){
                             //show的回调
                             var scrollTop
@@ -1162,7 +1226,7 @@
                                         $('#dask'+moduleId).hide();
                                         $("#enquiryDailog"+moduleId).hide();
                                         // tmpl.remove()
-                                        if($('.ks-overlay-mask').length!=0){
+                                        if($('.ks-overlay-mask').length != 0){
                                             $('.ks-overlay-mask').hide();
                                         }
                                         var toTop = $(window).scrollTop()
@@ -1206,7 +1270,8 @@
                             var toTop = $(window).scrollTop()
                             $(window).scrollTop(toTop)
                         })</script>
-                    <style>.enquiryProList {
+                    <style>
+                        .enquiryProList {
                             text-align: center;
                         }
                         .enquiryProList img{
@@ -1525,7 +1590,8 @@
                             }
                         }
                     </style>
-                    <script>$(function(){
+                    <script>
+                        $(function(){
                             var enlargeAl = function (moduleId){
                                 this.moduleId = moduleId
                                 this.originModule = $('#module_' + moduleId)
@@ -1621,12 +1687,13 @@
                                 $(window).scrollTop(top)
                                 tmpl.remove()
                                 $('#enquiryDailog18480272').show(0,function() {
-                                    $('#showcallback18480272').data('enquiryCallBack') && $('#showcallback18480272').data('enquiryCallBack')("JS005","2511247","/comdata/997/product/20181228093919DB5FDFEF76D44CD6_b.png")
+                                    $('#showcallback18480272').data('enquiryCallBack') && $('#showcallback18480272').data('enquiryCallBack')("{{ $product->name }}","2511247","{{asset('upload')}}/{{ $product->thumb }}")
                                 });
                                 $("[data-pluns='detailDialog18480272']").hide();
                             });
                         })</script>
-                    <script>if('1' == '1' && '1' == '1'){
+                    <script>
+                        if('1' == '1' && '1' == '1'){
                             loadStyleSheet('../skinp/modules/ModuleProductDetailGiant/detailDialog.css');
                         }
                         $(window).load(function(){
@@ -1636,7 +1703,7 @@
                         });
                         addScript('../skinp/modules/ModuleProductDetailGiant/details.js', function () {
                             $(function(){
-                                details('18480272','101','','[]','[]','','1',"20181228093919DB5FDFEF76D44CD6_b.png","JS005");
+                                details('18480272','101','','[]','[]','','1',"{{asset('upload')}}/{{ $product->thumb }}","{{ $product->name }}");
                                 initProductDetailQrcode('扫描二维码');
                             });
                         });</script>

@@ -44,7 +44,6 @@ class JournalismController extends Controller
         // 获取 “上一篇” 的 ID
         $preNewID = Journalism::where('id', '<', $id)->max('id');
         $pre_new = Journalism::find($preNewID);
-
         // 同理，获取 “下一篇” 的 ID
         $nextNewId = Journalism::where('id', '>', $id)->min('id');
         $next_new = Journalism::find($nextNewId);
