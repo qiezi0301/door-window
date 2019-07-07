@@ -41,11 +41,11 @@
                                         <div class='BodyCenter BodyCenter18513147 clearfix'>
                                             <ol class="breadcrumb" >
                                                 <li>
-                                                    <a class='menu bcs-item' href='../index'>首页</a>
+                                                    <a class='menu bcs-item' href='/'>Home</a>
                                                 </li>
                                                 <li><span class='separator'>></span>
                                                 </li>
-                                                <li class='lastMenu bcs-item'>联系我们</li>
+                                                <li class='lastMenu bcs-item'>Contact us</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -82,10 +82,8 @@
                                         <div class='BodyCenter BodyCenter18513152 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p><span style="color: rgb(165, 165, 165); font-size: 12px;">CONTACT US</span>
-                                                    </p>
-                                                    <p><span style="color:#3f3f3f"><span style="font-size: 30px;">联系我们</span></span>
-                                                    </p>
+                                                    {{--<p><span style="color: rgb(165, 165, 165); font-size: 12px;">CONTACT US</span></p>--}}
+                                                    <p><span style="color:#3f3f3f"><span style="font-size: 30px;">CONTACT US</span></span></p>
                                                 </div>
                                             </div>
                                             <script>changeFontSize($('#module_18513152'));</script>
@@ -105,7 +103,7 @@
                                                     </div>
                                                     <div class="col-xs-12 col-md-10 ModuleImageTextGiantContent ModuleImageTextContent">
                                                         <div style="font-family:微软雅黑;">
-                                                            <div style="color:#333;font-size:24px;line-height: 1.333;margin-bottom:12px;"><span style="color: rgb(102, 102, 102); font-size: 16px;">公司地址：广州市天河区天河路000号某某大厦</span>
+                                                            <div style="color:#333;font-size:24px;line-height: 1.333;margin-bottom:12px;"><span style="color: rgb(102, 102, 102); font-size: 16px;">ADD:NO.38 changzhong road,zhongluotan town, baiyun district,Guangzhou China</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -118,7 +116,7 @@
                                                     </div>
                                                     <div class="col-xs-12 col-md-10 ModuleImageTextGiantContent ModuleImageTextContent">
                                                         <div style="font-family:微软雅黑;">
-                                                            <div style="color:#333;font-size:24px;line-height: 1.333;margin-bottom:12px;"><span style="color: rgb(102, 102, 102); font-size: 16px;">联系电话：020-000000</span>
+                                                            <div style="color:#333;font-size:24px;line-height: 1.333;margin-bottom:12px;"><span style="color: rgb(102, 102, 102); font-size: 16px;">Tel:0086-20-62633964 62633976 62633939</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -131,7 +129,7 @@
                                                     </div>
                                                     <div class="col-xs-12 col-md-10 ModuleImageTextGiantContent ModuleImageTextContent">
                                                         <div style="font-family:微软雅黑;">
-                                                            <div style="color:#333;font-size:24px;line-height: 1.333;margin-bottom:12px;"><span style="color: rgb(102, 102, 102); font-size: 16px;">电子邮箱：DWFFBDF531@goolge.com</span>
+                                                            <div style="color:#333;font-size:24px;line-height: 1.333;margin-bottom:12px;"><span style="color: rgb(102, 102, 102); font-size: 16px;">E-mail:david@keysuntaope.com</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -144,13 +142,13 @@
                             </div>
                             <div class='clearfix visible-xs'>
                             </div>
-                            <div id='Sub18513151_2' class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-6 col-md-6 col-lg-6' positiontype='2' ismodulecontainer='true'>
+                            <div id='Sub18513151_2' class='ModuleContainer SubContainer ModuleGridItem col-xs-12 col-sm-6 col-md-6 col-lg-6' positiontype='2' ismodulecontainer='true'>
                                 <div class="ModuleItem  StaticModule " wo="347" id="module_18513154"  >
                                     <div class="ModuleMapGiant layout-101 layout-color- module_18513154 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18513154 clearfix'>
                                             <div class="mapgiant-container">
-                                                <div id="mapContainer18513154" class="mapContainer" data-title="xxxx有限公司" data-lat="23.134223415339545" data-long="113.3208417892456">
+                                                <div id="mapContainer18513154" class="mapContainer" data-title="Guangzhou Keysun Adhesive Manufactory Company" data-lat="113.415657" data-long="23.395015">
                                                 </div>
                                             </div>
                                             <script type="text/javascript">window['addQQMap'] = function (flag) {
@@ -164,9 +162,9 @@
                                                     }
                                                     addScript('../skinp/modules/ModuleMapGiant/ModuleMap.js', function () {
                                                         initMap('18513154', "101", {
-                                                            Latitude:'23.134223415339545',
-                                                            Longitude:'113.3208417892456',
-                                                            ItemTitle:'xxxx有限公司'
+                                                            Latitude:'23.395015',
+                                                            Longitude:'113.415657',
+                                                            ItemTitle:'Guangzhou Keysun Adhesive Manufactory Company '
                                                         });
                                                     });
                                                 }
@@ -178,20 +176,21 @@
                                                 }
                                                 addScript('https://map.qq.com/api/js?v=2.exp&callback=addQQMap&key=XCUBZ-PYS6S-H2SO2-6DBF3-G77OS-NNFXR', function() {
 
-                                                })</script>
+                                                })
+                                            </script>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class='clearfix visible-lg'>
-                            </div>
-                            <div class='clearfix visible-xs'>
-                            </div>
+                            <div class='clearfix visible-lg'></div>
+                            <div class='clearfix visible-xs'></div>
                         </div>
                     </div>
-                    <script type="text/javascript">addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
+                    <script type="text/javascript">
+                        addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
                             initGridGiant("18513151",{isFloat:"0"});
-                        });</script>
+                        });
+                    </script>
                 </div>
             </div>
         </div>

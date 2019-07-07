@@ -40,11 +40,11 @@
                                         <div class='BodyCenter BodyCenter18502855 clearfix'>
                                             <ol class="breadcrumb" >
                                                 <li>
-                                                    <a class='menu bcs-item' href='../index.html'>首页</a>
+                                                    <a class='menu bcs-item' href='/'>Home</a>
                                                 </li>
                                                 <li><span class='separator'>></span>
                                                 </li>
-                                                <li class='lastMenu bcs-item'>品牌故事</li>
+                                                <li class='lastMenu bcs-item'>Brand Story</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -153,17 +153,14 @@
                                         <div class='BodyCenter BodyCenter18503015 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: left;"><span style="color: rgb(165, 165, 165); font-size: 12px;">COMPANY PROFILE</span>
-                                                    </p>
-                                                    <p style="text-align: left;"><span style="color: rgb(63, 63, 63); font-size: 30px;">公司简介</span>
-                                                    </p>
-                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);">&nbsp; &nbsp; &nbsp; &nbsp;某某门窗实业有限公司自创办以来，亿合人励精图治，辛勤耕耘。肩负着“卓越品质，厚德载福”的神圣企业使命，多年来，一直坚持走研发创新之路，坚持将健康、绿色、环保门窗看做品牌发展的首要方向。</span><span style="color: rgb(127, 127, 127);">凭借多年的品牌影响力、强大的国际研发团队、低碳环保的高品质的产品，实现了产品核心竞争力的打造。产品在外观、结构、实用性能等多个方面已获得了多项国家专利。</span>
-                                                    </p>
-                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);">&nbsp; &nbsp; &nbsp; &nbsp;秉承“诚信、创新、坚持、感恩”的理念，在二十五年的发展过程中，建立了完整的市场、销售、研发、售后服务体系，某某的品牌知名度不断提升，在东北区、华北区、西北区、西南区、华南区设立了销售网络，并与国外知名厂家建立了良好的沟通与合作，大力开拓国际市场。哈尔滨某某门窗实业有限公司将继续坚持以“用质量构筑精品工程，用节能倡导低碳生活，用科技带动行业发展，守法规安全至高至上，守诚信坚持不懈追求”为一体化管理方针，为社会各界提供完美的节能生态建筑精品。</span>
+                                                    {{--<p style="text-align: left;"><span style="color: rgb(165, 165, 165); font-size: 12px;">COMPANY PROFILE</span></p>--}}
+                                                    <p style="text-align: left;"><span style="color: rgb(63, 63, 63); font-size: 30px;">Company Profile</span></p>
+                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);"><br/></span></p>
+                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);">&nbsp; &nbsp; &nbsp; &nbsp;Keysun is a professional masking tape production, research and development company group.  We sell building decor materials, as well as products suitable for automotive paint, interior decoration, or other special purposes including industry, electronic, etc. We mostly sell our products in Canada, the United States, Western Europe, Eastern Europe, Africa, the Middle East, Southeast Asia, China and other regions. </span></p>
+                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);"><br/></span></p>
+                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);">&nbsp; &nbsp; &nbsp; &nbsp;We have been exporting for 17 years, and as one of leading tape producers in China, we have not only have 6 coating production lines, and 20 set rewinding and cutting lines, but also different specialty branches including: a glue-making factory, paper mill, printing factory and paper core making factory. We are able to provide a very high level of product quality control in all aspects of our products. Because we have access to more than 6000 tons of raw material per year, we are able to produce in excess of 60 million square meters of masking tape per annum, generating $25 million in sales. At the same time, we are committed to stability and the development of product technology, and updating equipment investment products.</span>
+                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);"><br/></span></p>
+                                                    <p style="text-align: left;"><span style="color: rgb(127, 127, 127);">&nbsp; &nbsp; &nbsp; &nbsp;With 17 years of experience, we can provide a vast array of OEM qualified products to retailers, wholesalers, famous brands abroad and the domestic market. We hope to have a chance to cooperate with you!</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -178,9 +175,11 @@
                             </div>
                         </div>
                     </div>
-                    <script type="text/javascript">addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
+                    <script type="text/javascript">
+                        addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
                             initGridGiant("18506321",{isFloat:"0"});
-                        });</script>
+                        });
+                    </script>
                 </div>
             </div>
         </div>
@@ -211,7 +210,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">成立于</p>
+                                                        <p class="digital-title">Founded</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -221,7 +220,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">生产基地</p>
+                                                        <p class="digital-title">production base</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -231,7 +230,7 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">自主专利</p>
+                                                        <p class="digital-title">Independent Patent</p>
                                                     </div>
                                                     <div class="digital-item digital-line col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                         <div class="ico ico-4">
@@ -241,13 +240,15 @@
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
-                                                        <p class="digital-title">合作客户</p>
+                                                        <p class="digital-title">Customer</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <script>addScript('../skinp/modules/ModuleDigitalIncreaseGiant/digitalIncrease.js', function () {
+                                            <script>
+                                                addScript('../skinp/modules/ModuleDigitalIncreaseGiant/digitalIncrease.js', function () {
                                                     initDigitalIncreaseGiant(18503018,'101')
-                                                });</script>
+                                                });
+                                            </script>
                                         </div>
                                     </div>
                                 </div>

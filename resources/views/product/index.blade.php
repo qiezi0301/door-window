@@ -29,10 +29,8 @@
                     <div class='ModuleGridContainer  ModuleGridContainer18510581' gridswidthmode='2'>
                         <div class='row ModuleSubContainer'>
                             <div class="gridBgVideo noBgVideo">
-                                <video src="" class="bgVideo" autoplay="autoplay" loop="loop">
-                                </video>
-                                <div class="bgVideoMask">
-                                </div>
+                                <video src="" class="bgVideo" autoplay="autoplay" loop="loop"></video>
+                                <div class="bgVideoMask"></div>
                             </div>
                             <div id='Sub18510581_1' class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12' positiontype='2' ismodulecontainer='true'>
                                 <div class="ModuleItem  StaticModule " wo="367" id="module_18510582"  >
@@ -40,12 +38,9 @@
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18510582 clearfix'>
                                             <ol class="breadcrumb" >
-                                                <li>
-                                                    <a class='menu bcs-item' href='../index.html'>首页</a>
-                                                </li>
-                                                <li><span class='separator'>></span>
-                                                </li>
-                                                <li class='lastMenu bcs-item'>产品首页</li>
+                                                <li><a class='menu bcs-item' href='/'>Home</a></li>
+                                                <li><span class='separator'>></span></li>
+                                                <li class='lastMenu bcs-item'>Product Home</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -57,9 +52,11 @@
                             </div>
                         </div>
                     </div>
-                    <script type="text/javascript">addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
+                    <script type="text/javascript">
+                        addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
                             initGridGiant("18510581",{isFloat:"0"});
-                        });</script>
+                        });
+                    </script>
                 </div>
             </div>
         </div>
@@ -80,15 +77,13 @@
                                     <div class="ModuleCommonClsGiant layout-102 layout-color-blue module_18510613 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18510613 clearfix'>
-                                            <header class="class-title classify"><span class="OneRow class-title-text">产品中心</span><span class="class-title-icon icon iconfont icon-jia" aria-hidden="true"></span>
+                                            <header class="class-title classify"><span class="OneRow class-title-text">Product Center</span><span class="class-title-icon icon iconfont icon-jia" aria-hidden="true"></span>
                                             </header>
                                             <ul class="one-classify">
                                                 @foreach($types as $type)
                                                 <li class="main-class-item">
                                                     <a href="/product/{{$type->id}}" target="_self">
-                                                        <p style="display: block; position: absolute;">
-                                                            <i class="main-class-colorlump"></i>
-                                                        </p><span class="OneRow main-class-text">{{$type->name}}</span>
+                                                        <p style="display: block; position: absolute;"><i class="main-class-colorlump"></i></p><span class="OneRow main-class-text">{{$type->name}}</span>
                                                     </a>
                                                 </li>
                                                 @endforeach
@@ -143,15 +138,15 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class='clearfix visible-lg'>
-                            </div>
-                            <div class='clearfix visible-xs'>
-                            </div>
+                            <div class='clearfix visible-lg'></div>
+                            <div class='clearfix visible-xs'></div>
                         </div>
                     </div>
-                    <script type="text/javascript">addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
+                    <script type="text/javascript">
+                        addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
                             initGridGiant("18510584",{isFloat:"0"});
-                        });</script>
+                        });
+                    </script>
                 </div>
             </div>
         </div>

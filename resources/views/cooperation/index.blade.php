@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','合作加盟')
+@section('title','Joint venture')
 @section('css')
     <link rel="stylesheet" type="text/css" href="{{ asset('static/css/cooperation.css') }}"/>
 @endsection
@@ -41,11 +41,11 @@
                                         <div class='BodyCenter BodyCenter18511769 clearfix'>
                                             <ol class="breadcrumb" >
                                                 <li>
-                                                    <a class='menu bcs-item' href='../index.html'>首页</a>
+                                                    <a class='menu bcs-item' href='/'>Home</a>
                                                 </li>
                                                 <li><span class='separator'>></span>
                                                 </li>
-                                                <li class='lastMenu bcs-item'>合作加盟</li>
+                                                <li class='lastMenu bcs-item'>Joint venture</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -82,9 +82,8 @@
                                         <div class='BodyCenter BodyCenter18511867 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">4 MAJOR ADVANTAGES</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span style="font-size: 40px;"><strong><span style="color: rgb(255, 0, 0);">4</span></strong></span><span style="font-size: 36px; color: rgb(255, 0, 0);">&nbsp;</span><span style="color: rgb(89, 89, 89); font-size: 36px;">大优势</span>
+                                                    {{--<p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">4 MAJOR ADVANTAGES</span></p>--}}
+                                                    <p style="text-align: center; line-height: 2em;"><span style="font-size: 40px;"><strong><span style="color: rgb(255, 0, 0);">4</span></strong></span><span style="font-size: 36px; color: rgb(255, 0, 0);">&nbsp;</span><span style="color: rgb(89, 89, 89); font-size: 36px;"> MAJOR ADVANTAGES</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -308,7 +307,7 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">COOPERATION</span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color:#595959"><span style="font-size: 36px;">合作加盟</span></span>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color:#595959"><span style="font-size: 36px;">Joint venture</span></span>
                                                     </p>
                                                 </div>
                                             </div>

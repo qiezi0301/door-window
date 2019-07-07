@@ -40,16 +40,16 @@
                                         <div class='BodyCenter BodyCenter18516498 clearfix'>
                                             <ol class="breadcrumb" >
                                                 <li>
-                                                    <a class='menu bcs-item' href='../index.html'>首页</a>
+                                                    <a class='menu bcs-item' href='../index.html'>Home</a>
                                                 </li>
                                                 <li><span class='separator'>></span>
                                                 </li>
                                                 <li>
-                                                    <a class='menu bcs-item' href='468221.html'>品牌故事</a>
+                                                    <a class='menu bcs-item' href='468221.html'>Brand Story</a>
                                                 </li>
                                                 <li><span class='separator'>></span>
                                                 </li>
-                                                <li class='lastMenu bcs-item'>品牌文化</li>
+                                                <li class='lastMenu bcs-item'>Brand Culture</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -86,10 +86,8 @@
                                         <div class='BodyCenter BodyCenter18508197 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">BRAND INTERPRETATION</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(89, 89, 89); font-size: 36px;">品牌释义</span>
-                                                    </p>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">-</span></p>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(89, 89, 89); font-size: 36px;">BRAND INTERPRETATION</span></p>
                                                 </div>
                                             </div>
                                             <script>changeFontSize($('#module_18508197'));</script>
@@ -202,9 +200,8 @@
                                         <div class='BodyCenter BodyCenter18509820 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">BRAND HISTORY</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(89, 89, 89); font-size: 36px;">品牌历程</span>
+                                                    {{--<p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">BRAND HISTORY</span></p>--}}
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(89, 89, 89); font-size: 36px;">BRAND HISTORY</span>
                                                     </p>
                                                 </div>
                                             </div>

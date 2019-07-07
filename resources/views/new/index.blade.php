@@ -41,11 +41,11 @@
                                         <div class='BodyCenter BodyCenter18512757 clearfix'>
                                             <ol class="breadcrumb" >
                                                 <li>
-                                                    <a class='menu bcs-item' href='../index.html'>首页</a>
+                                                    <a class='menu bcs-item' href='../index.html'>Home</a>
                                                 </li>
                                                 <li><span class='separator'>></span>
                                                 </li>
-                                                <li class='lastMenu bcs-item'>文章首页</li>
+                                                <li class='lastMenu bcs-item'>News center</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@
                                                             <div class="ModuleAssocCommonClsGiant layout-102 layout-color-blue module_18512767 clearfix">
                                                                 <!-- 主体 -->
                                                                 <div class='BodyCenter BodyCenter18512767 clearfix'>
-                                                                    <header class="class-title classify"><span class="OneRow class-title-text">新闻中心</span><span class="class-title-icon icon iconfont icon-jia" aria-hidden="true"></span>
+                                                                    <header class="class-title classify"><span class="OneRow class-title-text">News center</span><span class="class-title-icon icon iconfont icon-jia" aria-hidden="true"></span>
                                                                     </header>
 
                                                                     <ul class="one-classify">

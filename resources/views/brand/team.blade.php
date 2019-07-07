@@ -40,16 +40,16 @@
                                         <div class='BodyCenter BodyCenter18502880 clearfix'>
                                             <ol class="breadcrumb" >
                                                 <li>
-                                                    <a class='menu bcs-item' href='../index.html'>首页</a>
+                                                    <a class='menu bcs-item' href='../index.html'>Home</a>
                                                 </li>
                                                 <li><span class='separator'>></span>
                                                 </li>
                                                 <li>
-                                                    <a class='menu bcs-item' href='468221.html'>品牌故事</a>
+                                                    <a class='menu bcs-item' href='468221.html'>Brand Story</a>
                                                 </li>
                                                 <li><span class='separator'>></span>
                                                 </li>
-                                                <li class='lastMenu bcs-item'>公司团队</li>
+                                                <li class='lastMenu bcs-item'>Company Team</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -86,9 +86,8 @@
                                         <div class='BodyCenter BodyCenter18502983 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">COMPANY TEAM</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(89, 89, 89); font-size: 36px;">公司团队</span>
+                                                    {{--<p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">COMPANY TEAM</span></p>--}}
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(89, 89, 89); font-size: 36px;">COMPANY TEAM</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -128,7 +127,7 @@
                                         <div class='BodyCenter BodyCenter18507144 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span style="color: rgb(127, 127, 127);">我们是来自不同地区的人，其中有思维敏捷的策划者，也有实战经验的营销者，也有能说会道的演讲者，还有一流水准的操作者，更有高瞻远瞩的领导者。同一个梦想我们相聚了，组建了团队。我们每一个团队成员就如同人的五官，缺一不可。如果缺少了一个，这个人将不能健康的活着。我们以实力为盾、自信为矛、团结为勇气，组成了激情无畏的团体，我们每个人都应该挑战自我，超越自我，我们坚信成功靠朋友，成长靠对手，成就靠团队。</span>
+                                                    <p style="text-align: center;"><span style="color: rgb(127, 127, 127);">We are people from different regions, including quick-thinking planners, marketers with practical experience, speakers who can speak well, first-class operators, and more forward-looking leaders. With the same dream, we got together and formed a team. Every member of our team is like a person's five senses, one of which is indispensable. If one is missing, the person will not be able to live healthily. With strength as shield, self-confidence as spear and unity as courage, we have formed a passionate and fearless group. Each of us should challenge ourselves and surpass ourselves. We firmly believe that success depends on friends, growth depends on opponents, and success depends on teams.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -202,9 +201,8 @@
                                         <div class='BodyCenter BodyCenter18507360 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">EXCELLENT STAFF</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;"><span style="color: rgb(89, 89, 89); font-size: 36px; text-align: center;">优秀员工</span></span>
+                                                    {{--<p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">EXCELLENT STAFF</span></p>--}}
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;"><span style="color: rgb(89, 89, 89); font-size: 36px; text-align: center;">EXCELLENT STAFF</span></span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -254,11 +252,11 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p><span style="color:#a5a5a5;font-family:微软雅黑, SimSun"><span style="font-size: 16px;">Tom</span></span>
                                                     </p>
-                                                    <p><span style="font-family:微软雅黑, SimSun"><span style="font-size: 28px;">创始人</span></span>
+                                                    <p><span style="font-family:微软雅黑, SimSun"><span style="font-size: 28px;">Founder</span></span>
                                                     </p>
                                                     <p><span style="font-family:微软雅黑, SimSun"><br/></span>
                                                     </p>
-                                                    <p><span style="font-family: 微软雅黑, SimSun; color: rgb(127, 127, 127);">我们是来自不同地区的人，其中有思维敏捷的策划者，也有实战经验的营销者，也有能说会道的演讲者，还有一流水准的操作者，更有高瞻远瞩的领导者。</span>
+                                                    <p><span style="font-family: 微软雅黑, SimSun; color: rgb(127, 127, 127);">We are people from different regions, including quick-thinking planners, marketers with practical experience, speakers who can speak well, first-class operators, and more forward-looking leaders.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -286,11 +284,11 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p><span style="color:#a5a5a5;font-family:微软雅黑, SimSun"><span style="font-size: 16px;">Ariel</span></span>
                                                     </p>
-                                                    <p><span style="font-family:微软雅黑, SimSun"><span style="font-size: 28px;">客服经理</span></span>
+                                                    <p><span style="font-family:微软雅黑, SimSun"><span style="font-size: 28px;">Service Manager</span></span>
                                                     </p>
                                                     <p><span style="font-family:微软雅黑, SimSun"><br/></span>
                                                     </p>
-                                                    <p><span style="font-family: 微软雅黑, SimSun; color: rgb(127, 127, 127);">同一个梦想我们相聚了，组建了团队。我们每一个团队成员就如同人的五官，缺一不可。如果缺少了一个，这个人将不能健康的活着。</span>
+                                                    <p><span style="font-family: 微软雅黑, SimSun; color: rgb(127, 127, 127);">With the same dream, we got together and formed a team. Every member of our team is like a person's five senses, one of which is indispensable. If one is missing, the person will not be able to live healthily.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -318,11 +316,11 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p><span style="color:#a5a5a5;font-family:微软雅黑, SimSun"><span style="font-size: 16px;">小黎</span></span>
                                                     </p>
-                                                    <p><span style="font-family:微软雅黑, SimSun"><span style="font-size: 28px;">产品总监</span></span>
+                                                    <p><span style="font-family:微软雅黑, SimSun"><span style="font-size: 28px;">Product Director</span></span>
                                                     </p>
                                                     <p><span style="font-family:微软雅黑, SimSun"><br/></span>
                                                     </p>
-                                                    <p><span style="font-family: 微软雅黑, SimSun; color: rgb(127, 127, 127);">我们以实力为盾、自信为矛、团结为勇气，组成了激情无畏的团体，我们每个人都应该挑战自我，超越自我，我们坚信成功靠朋友，成长靠对手，成就靠团队。</span>
+                                                    <p><span style="font-family: 微软雅黑, SimSun; color: rgb(127, 127, 127);">With strength as shield, self-confidence as spear and unity as courage, we have formed a passionate and fearless group. Each of us should challenge ourselves and surpass ourselves. We firmly believe that success depends on friends, growth depends on rivals, and success depends on teams.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -352,11 +350,11 @@
                                                         <font color="#a5a5a5" face="微软雅黑, SimSun"><span style="font-size: 16px;">KM</span>
                                                         </font>
                                                     </p>
-                                                    <p><span style="font-family:微软雅黑, SimSun"><span style="font-size: 28px;">销售经理</span></span>
+                                                    <p><span style="font-family:微软雅黑, SimSun"><span style="font-size: 28px;">sales manager</span></span>
                                                     </p>
                                                     <p><span style="font-family:微软雅黑, SimSun"><br/></span>
                                                     </p>
-                                                    <p><span style="font-family: 微软雅黑, SimSun; color: rgb(127, 127, 127);">同一个梦想我们相聚了，组建了团队。我们每一个团队成员就如同人的五官，缺一不可。如果缺少了一个，这个人将不能健康的活着。</span>
+                                                    <p><span style="font-family: 微软雅黑, SimSun; color: rgb(127, 127, 127);">With the same dream, we got together and formed a team. Every member of our team is like a person's five senses, one of which is indispensable. If one is missing, the person will not be able to live healthily.</span>
                                                     </p>
                                                 </div>
                                             </div>
