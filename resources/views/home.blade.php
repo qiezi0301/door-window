@@ -217,27 +217,22 @@
                                     <div class="ModuleSearchGiant layout-102 layout-color-blue module_18468484 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18468484 clearfix'>
-                                            <link rel="stylesheet" type="text/css"
-                                                  href="static/css/bootstrap-select.min.css">
-                                            <form id="search_18468484" action="/NewsList/0" method="post">
+                                            <link rel="stylesheet" type="text/css" href="static/css/bootstrap-select.min.css">
+                                            <form id="search_18468484" action="/search" method="post" enctype="multipart/form-data">
+                                                @csrf
                                                 <div class="ModuleSearchForm ModuleSearchFormStyle">
                                                     <table class="content search-item">
                                                         <tr>
                                                             <td>
                                                                 <div class="group">
-                                                                    <div class="searchInputPanel"><span
-                                                                                class="searchIcon iconfont icon-sousuo1"></span>
-                                                                        <input type="text" name="Keyword"
-                                                                               placeholder='Please enter keywords'
-                                                                               class="ModuleSearchInput"/>
+                                                                    <div class="searchInputPanel"><span class="searchIcon iconfont icon-sousuo1"></span>
+                                                                        <input type="text" name="keywords" placeholder='Please enter keywords' class="ModuleSearchInput"/>
                                                                     </div>
                                                                 </div>
                                                             </td>
                                                             <td style="width:1%;">
                                                                 <div class="searchBtnPanel">
-                                                                    <button class="btn btn-default ModuleSearchButton"
-                                                                            type="submit">search
-                                                                    </button>
+                                                                    <button class="btn btn-default ModuleSearchButton" type="submit">search</button>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -3063,18 +3058,16 @@
                                                         <a href="/NewsDetail/887685.html" target='_blank'
                                                            class="clearfix">
                                                             <div class="news-img">
-                                                                <img src="static/img/20181228152027cc675e.png?v=2"
-                                                                     alt="相约唐山，某某门窗八月钜惠！" title="相约唐山，某某门窗八月钜惠！"
-                                                                     class="t-img">
-                                                                <div class="dummy">
-                                                                </div>
+                                                                <img src="static/img/20181228152027cc675e.png?v=2" alt="相约唐山，某某门窗八月钜惠！" title="相约唐山，某某门窗八月钜惠！" class="t-img">
+                                                                <div class="dummy"></div>
                                                             </div>
                                                             <div class="news-tit">
-                                                                <p class="news-title  layout-110-name"><span
-                                                                            class="laout-110-title">general purpose pre-taped masking film for fast paintings in 3 days</span>
+                                                                <p class="news-title  layout-110-name">
+                                                                    <span class="laout-110-title">general purpose pre-taped masking film for fast paintings in 3 days</span>
                                                                 </p>
                                                                 <time style=""></time>
-                                                                <p class="news-desc  layout-110-desc "><span>Anti-slide surface   Anti-static   Automatic adsorption  Good adhesiveproperty</span>
+                                                                <p class="news-desc  layout-110-desc ">
+                                                                    <span>Anti-slide surface   Anti-static   Automatic adsorption  Good adhesiveproperty</span>
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -3190,8 +3183,8 @@
                                                                 </div>
                                                             </div>
                                                             <div class="news-tit">
-                                                                <p class="news-title  layout-110-name"><span
-                                                                            class="laout-110-title">Pre-Taped Masking Paper Suitable for all paints</span>
+                                                                <p class="news-title  layout-110-name">
+                                                                    <span class="laout-110-title">Pre-Taped Masking Paper Suitable for all paints</span>
                                                                 </p>
                                                                 <time style="">
                                                                 </time>
@@ -3206,15 +3199,12 @@
                                                         <a href="/NewsDetail/887677.html" target='_blank'
                                                            class="clearfix">
                                                             <div class="news-img">
-                                                                <img src="static/img/201812281520284f4c8e.png?v=2"
-                                                                     alt="【十一限时特惠】感恩公司25周年，买门窗送金币！"
-                                                                     title="【十一限时特惠】感恩公司25周年，买门窗送金币！" class="t-img">
-                                                                <div class="dummy">
-                                                                </div>
+                                                                <img src="static/img/201812281520284f4c8e.png?v=2" alt="【十一限时特惠】感恩公司25周年，买门窗送金币！" title="【十一限时特惠】感恩公司25周年，买门窗送金币！" class="t-img">
+                                                                <div class="dummy"></div>
                                                             </div>
                                                             <div class="news-tit">
-                                                                <p class="news-title  layout-110-name"><span
-                                                                            class="laout-110-title">Heavy grade protection, best choice for construction more than 6 months</span>
+                                                                <p class="news-title  layout-110-name">
+                                                                    <span class="laout-110-title">Heavy grade protection, best choice for construction more than 6 months</span>
                                                                 </p>
                                                                 <time style=""></time>
                                                                 <p class="news-desc  layout-110-desc "><span>High strength protection  Oil-proof varnish  Stand wear and tear</span>
@@ -3225,7 +3215,8 @@
                                                     <!--ITEMEND-->
                                                 </ul>
                                             </div>
-                                            <script>addScript('./skinp/modules/ModuleNewsListGiant/newslist.js', function () {
+                                            <script>
+                                                addScript('./skinp/modules/ModuleNewsListGiant/newslist.js', function () {
                                                     initNewsList("18502353", "110", {
                                                         'LgItemCount': '3',
                                                         'MdItemCount': '',
@@ -3237,7 +3228,8 @@
                                                             "isCharLimit": false
                                                         }]
                                                     });
-                                                });</script>
+                                                });
+                                            </script>
                                         </div>
                                     </div>
                                 </div>

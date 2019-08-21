@@ -64,3 +64,6 @@ Route::get('/contact', function () {
     $types = Type::all();
     return view('contact.index',compact('newTypes','types'));
 })->name('contact');
+
+//搜索
+Route::post('/search', 'SearchController@index');

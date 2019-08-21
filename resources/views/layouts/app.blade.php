@@ -29,6 +29,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('static/css/modulestylemobile.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('static/css/modulemobilenavtpl.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('static/css/style.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('static/css/nav.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('static/css/swiper.min.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('static/css/font-awesome.min.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('static/css/iconfont.css') }}"/>
