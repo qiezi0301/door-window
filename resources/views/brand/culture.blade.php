@@ -17,7 +17,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18507494 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18507494 clearfix'>
-                    <img class="image-animation" src="../static/img/20181228171241ad9046.png" alt="图片展示" />
+                    <img class="image-animation" src="../static/img/20181228171241ad9046.png?v=2" alt="图片展示" />
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18516843 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18516843 clearfix'>
-                    <img class="image-animation" src="../static/img/201812292030090172da.png" alt="图片展示" />
+                    <img class="image-animation" src="../static/img/11.png?v=2" alt="图片展示" />
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18513142 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18513142 clearfix'>
-                    <img class="image-animation" src="../static/img/20181229172101b8bef6.png" alt="图片展示" />
+                    <img class="image-animation" src="../static/img/11.png?v=2" alt="图片展示" />
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
                                                     </div>
                                                     <div class="col-xs-12 col-md-10 ModuleImageTextGiantContent ModuleImageTextContent">
                                                         <div style="font-family:微软雅黑;">
-                                                            <div style="color:#333;font-size:24px;line-height: 1.333;margin-bottom:12px;"><span style="color: rgb(102, 102, 102); font-size: 16px;">E-mail:david@keysuntaope.com</span>
+                                                            <div style="color:#333;font-size:24px;line-height: 1.333;margin-bottom:12px;"><span style="color: rgb(102, 102, 102); font-size: 16px;">E-mail:david@keysuntape.com</span>
                                                             </div>
                                                         </div>
                                                     </div>

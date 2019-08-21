@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 @section('title','Joint venture')
@@ -10,7 +11,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18516828 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18516828 clearfix'>
-                    <img class="image-animation" src="../static/img//20181229203009bc3094.png" alt="图片展示" />
+                    <img class="image-animation" src="../static/img//11.png?v=2" alt="图片展示" />
                 </div>
             </div>
         </div>
@@ -18,7 +19,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18511753 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18511753 clearfix'>
-                    <img class="image-animation" src="../static/img//20181229154022455f3f.png" alt="图片展示" />
+                    <img class="image-animation" src="../static/img//11.png?v=2" alt="图片展示" />
                 </div>
             </div>
         </div>
@@ -131,7 +132,7 @@
                                         <div class='BodyCenter BodyCenter18512093 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p><span style="font-size: 24px;">水密性&nbsp;</span><span style="color: rgb(165, 165, 165);">WATER TIGHTNESS</span>
+                                                    <p><span style="font-size: 24px;">None residue<br></span><span style="color: rgb(165, 165, 165);">WATER TIGHTNESS</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -171,7 +172,7 @@
                                         <div class='BodyCenter BodyCenter18512110 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p><span style="font-size: 24px;">隔热性&nbsp;</span><span style="color: rgb(165, 165, 165);">THERMAL INSULATION</span>
+                                                    <p><span style="font-size: 24px;">Super sharp paint lines<br></span><span style="color: rgb(165, 165, 165);">THERMAL INSULATION</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -211,7 +212,7 @@
                                         <div class='BodyCenter BodyCenter18512147 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p><span style="font-size: 24px;">隔音性&nbsp;</span><span style="color: rgb(165, 165, 165);">SOUND INSULATION</span>
+                                                    <p><span style="font-size: 24px;">UV resistance<br></span><span style="color: rgb(165, 165, 165);">SOUND INSULATION</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -251,7 +252,7 @@
                                         <div class='BodyCenter BodyCenter18512148 clearfix'>
                                             <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p><span style="font-size: 24px;">安全性&nbsp;</span><span style="color: rgb(165, 165, 165);">SAFETY</span>
+                                                    <p><span style="font-size: 24px;">High tensile strength</span><span style="color: rgb(165, 165, 165);">SAFETY</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -302,17 +303,7 @@
                                 <div class="ModuleItem  StaticModule " wo="367" id="module_18511772"  >
                                     <div class="ModuleImageTextGiant layout-101 layout-color-red module_18511772 clearfix">
                                         <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511772 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(191, 191, 191); font-size: 12px;">COOPERATION</span>
-                                                    </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color:#595959"><span style="font-size: 36px;">Joint venture</span></span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18511772'));</script>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -344,15 +335,7 @@
                                 <div class="ModuleItem  StaticModule " wo="367" id="module_18511791"  >
                                     <div class="ModuleImageTextGiant layout-101 layout-color-red module_18511791 clearfix">
                                         <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511791 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span style="color: rgb(127, 127, 127);">秉承“诚信、创新、坚持、感恩”的理念，在二十五年的发展过程中，建立了完整的市场、销售、研发、售后服务体系，某某的品牌知名度不断提升，在东北区、华北区、西北区、西南区、华南区设立了销售网络，并与国外知名厂家建立了良好的沟通与合作，大力开拓国际市场。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18511791'));</script>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -370,359 +353,13 @@
         </div>
         <div class="ModuleItem  StaticModule mhidden-xs" wo="367" id="module_18511809"  >
             <div class="ModuleGridGiant layout-101 layout-color- module_18511809 clearfix">
-                <!-- 主体 -->
-                <div class='BodyCenter BodyCenter18511809 clearfix'>
-                    <div class='ModuleGridContainer  ModuleGridContainer18511809' gridswidthmode='2'>
-                        <div class='row ModuleSubContainer'>
-                            <div class="gridBgVideo noBgVideo">
-                                <video src="" class="bgVideo" autoplay="autoplay" loop="loop">
-                                </video>
-                                <div class="bgVideoMask">
-                                </div>
-                            </div>
-                            <div id='Sub18511809_1' class='ModuleContainer SubContainer ModuleGridItem     col-xs-3 col-sm-2 col-md-2 col-lg-2' positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511810"  >
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18511810 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511810 clearfix'>
-                                            <img class="image-animation" src="../static/img/201812281643172f2229.png" alt="图片展示" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511817"  >
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18511817 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511817 clearfix'>
-                                            <img class="image-animation" src="../static/img//20181228164317dbde1b.png" alt="图片展示" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511821"  >
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18511821 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511821 clearfix'>
-                                            <img class="image-animation" src="../static/img//2018122816431734cd08.png" alt="图片展示" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id='Sub18511809_2' class='ModuleContainer SubContainer ModuleGridItem     col-xs-9 col-sm-4 col-md-4 col-lg-4' positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511812"  >
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18511812 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511812 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span style="font-size: 20px; color: rgb(63, 63, 63);"><strong>营销：全网品牌推广，助力终端营销</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span style="color: rgb(165, 165, 165);">与各大互联网平台合作，全国联动营销推广。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18511812'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511818"  >
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18511818 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511818 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span style="font-size: 20px; color: rgb(63, 63, 63);"><strong>团队：团队保障，解除后顾之忧</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span style="color: rgb(165, 165, 165);">强大的生产团队、研发团队、营销团队，实力保证。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18511818'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511822"  >
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18511822 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511822 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span style="font-size: 20px; color: rgb(63, 63, 63);"><strong>加盟：零加盟费，无忧创业</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span style="color: rgb(165, 165, 165);">选择我们，0加盟费，专业解决您的创业困惑。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18511822'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='clearfix visible-xs'>
-                            </div>
-                            <div id='Sub18511809_3' class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-2 col-md-2 col-lg-2' positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511815"  >
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18511815 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511815 clearfix'>
-                                            <img class="image-animation" src="../static/img//2018122816431735866e.png" alt="图片展示" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511819"  >
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18511819 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511819 clearfix'>
-                                            <img class="image-animation" src="../static/img/20181228164317ae5512.png" alt="图片展示" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511823"  >
-                                    <div class="ModuleImageGiant layout-101 layout-color- module_18511823 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511823 clearfix'>
-                                            <img class="image-animation" src="../static/img/20181228164317f0e7cd.png" alt="图片展示" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id='Sub18511809_4' class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-4 col-md-4 col-lg-4' positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511814"  >
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18511814 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511814 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span style="font-size: 20px; color: rgb(63, 63, 63);"><strong>培训：培训保障，打造超级航母人才培训</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span style="color: rgb(165, 165, 165);">商学院培训，实战提升终端销售人员水平，提升终端市场营销</span><span style="color: rgb(165, 165, 165);">能力 。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18511814'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511820"  >
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18511820 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511820 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span style="font-size: 20px; color: rgb(63, 63, 63);"><strong>指导：开业支持，一对一指导</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span style="color: rgb(165, 165, 165);">终端门店开业支持，免费提供店面搭配、形象设计。</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18511820'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="100" id="module_18511824"  >
-                                    <div class="ModuleImageTextGiant layout-101 layout-color-red module_18511824 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18511824 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="line-height: 2em;"><span style="font-size: 20px; color: rgb(63, 63, 63);"><strong>服务：365天全程服务，风雨无阻</strong></span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span style="color: rgb(165, 165, 165);">强大的售后服务系统，全年在线，完美解答售后客户销售系列问题</span><span style="color: rgb(165, 165, 165);">&nbsp;。</span>
-                                                    </p>
-                                                    <p style="line-height: 2em;"><span style="color: rgb(165, 165, 165);"></span>
-                                                    </p>
-                                                    <p></p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18511824'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='clearfix visible-lg'>
-                            </div>
-                        </div>
-                    </div>
-                    <script type="text/javascript">addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
-                            initGridGiant("18511809",{isFloat:"0"});
-                        });</script>
-                </div>
+ 
             </div>
         </div>
         <div class="ModuleItem  StaticModule mhidden-lg mhidden-md mhidden-sm" wo="367" id="module_18516231"  >
             <div class="ModuleGridGiant layout-101 layout-color- module_18516231 clearfix">
                 <!-- 主体 -->
-                <div class='BodyCenter BodyCenter18516231 clearfix'>
-                    <div class='ModuleGridContainer  ModuleGridContainer18516231' gridswidthmode='2'>
-                        <div class='row ModuleSubContainer'>
-                            <div class="gridBgVideo noBgVideo">
-                                <video src="" class="bgVideo" autoplay="autoplay" loop="loop">
-                                </video>
-                                <div class="bgVideoMask">
-                                </div>
-                            </div>
-                            <div id='Sub18516231_1' class='ModuleContainer SubContainer ModuleGridItem     col-xs-6 col-sm-6 col-md-6 col-lg-6' positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="174" id="module_18516247"  >
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18516247 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18516247 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation" src="../static/img/201812281643172f2229.png" title="" alt=""  style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);">营销</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">全网品牌推广</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">助力终端营销</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18516247'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="174" id="module_18516249"  >
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18516249 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18516249 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation" src="../static/img/20181228164317dbde1b.png" title="" alt=""  style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);">团队</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">团队保障</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">解除后顾之忧</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18516249'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="174" id="module_18516251"  >
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18516251 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18516251 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation" src="../static/img/2018122816431734cd08.png" title="" alt=""  style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);">加盟</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">零加盟费</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">无忧创业</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18516251'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id='Sub18516231_2' class='ModuleContainer SubContainer ModuleGridItem     col-xs-6 col-sm-6 col-md-6 col-lg-6' positiontype='2' ismodulecontainer='true'>
-                                <div class="ModuleItem  StaticModule " wo="174" id="module_18516248"  >
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18516248 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18516248 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation" src="../static/img/2018122816431735866e.png" title="" alt=""  style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);">培训</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">培训保障</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">人才培训</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18516248'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="174" id="module_18516250"  >
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18516250 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18516250 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation" src="../static/img/20181228164317ae5512.png" title="" alt=""  style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);">指导</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">开业支持</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">一对一指导</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18516250'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ModuleItem  StaticModule " wo="174" id="module_18516252"  >
-                                    <div class="ModuleImageTextGiant layout-103 layout-color-red module_18516252 clearfix">
-                                        <!-- 主体 -->
-                                        <div class='BodyCenter BodyCenter18516252 clearfix'>
-                                            <div class="imageTextGiant-Container imageTextContainer clearfix" hasresponsive="1" autohide="0" hideheight="150" hidewidth="760" >
-                                                <div class="GraphicUpper">
-                                                    <a href="javascript:;" style="display: block;">
-                                                        <img class="TextImage image-animation" src="../static/img/20181228164317f0e7cd.png" title="" alt=""  style="cursor: default">
-                                                    </a>
-                                                </div>
-                                                <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);"><br/></span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="font-size: 16px; color: rgb(63, 63, 63);">服务</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">全程服务</span>
-                                                    </p>
-                                                    <p style="text-align: center;"><span style="color: rgb(165, 165, 165);">风雨无阻</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <script>changeFontSize($('#module_18516252'));</script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='clearfix visible-lg'>
-                            </div>
-                            <div class='clearfix visible-xs'>
-                            </div>
-                        </div>
-                    </div>
-                    <script type="text/javascript">addScript('../skinp/modules/ModuleGridGiant/modulegrid.js',function(){
-                            initGridGiant("18516231",{isFloat:"0"});
-                        });</script>
-                </div>
+     
             </div>
         </div>
     </div>

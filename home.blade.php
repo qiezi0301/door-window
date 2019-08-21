@@ -39,13 +39,13 @@
                                              class="img-responsive">
                                     </a>
                                     <div>
-                                        <!--     id="Sub18515661_1"
+                                            id="Sub18515661_1"
                                             isModuleContainer="true"
                                             class="ModuleContainer SubContainer ModuleSlideContainer module_18515661"
                                             module-container-type="ModuleSlide"
                                             a-link-value=""
                                             style=""
-                                     -->
+                                    >
                                     </div>
                                 </div>
                             </div>
@@ -590,7 +590,7 @@
                                                                         <div class='BodyCenter BodyCenter18516166 clearfix'>
                                                                             <img class="image-animation"
                                                                                  src="static/img/20181228105338e217bc.png?v=2"
-                                                                                 url="/comdata/997/201812/20181228105338e217bc.png?v=2"
+                                                                                 url="/comdata/997/201812/20181228105338e217bc.png"
                                                                                  alt="图片展示"/>
                                                                         </div>
                                                                     </div>
@@ -1018,8 +1018,8 @@
                                                                     <div class="ModuleImageGiant layout-104 layout-color- module_18481677 clearfix">
                                                                         <!-- 主体 -->
                                                                         <div class='BodyCenter BodyCenter18481677 clearfix'>
-                                                                            <img class="image-animation" url="/comdata/997/201812/201812281053388479b3.png" src="static/img/201812281053388479b3.png?v=2" alt="P828"/>
-                                                                            <div name='shade' class="Imagetitl">P828 </div>
+                                                                            <img class="image-animation" url="/comdata/997/201812/201812281053388479b3.png" src="static/img/201812281053388479b3.png" alt="JS001"/>
+                                                                            <div name='shade' class="Imagetitl">JS001 </div>
                                                                             <script>
                                                                                 $(function () {
                                                                                     addScript('./skinp/modules/ModuleImageGiant/ModuleImage.js', function () {
@@ -1038,9 +1038,9 @@
                                                                         <div class='BodyCenter BodyCenter18482129 clearfix'>
                                                                             <img class="image-animation"
                                                                                  url="/comdata/997/201812/201812281053387765c9.png"
-                                                                                 src="static/img/201812281053387765c9.png?v=2"
-                                                                                 alt="9616G"/>
-                                                                            <div name='shade' class="Imagetitl">9616G
+                                                                                 src="static/img/201812281053387765c9.png"
+                                                                                 alt="JS002"/>
+                                                                            <div name='shade' class="Imagetitl">JS002
                                                                             </div>
                                                                             <script>
                                                                                 $(function () {
@@ -1057,10 +1057,10 @@
                                                                         <!-- 主体 -->
                                                                         <div class='BodyCenter BodyCenter18482325 clearfix'>
                                                                             <img class="image-animation"
-                                                                                 url="/comdata/997/201812/20181228105338e217bc.png?v=2"
-                                                                                 src="static/img/20181228105338e217bc.png?v=2"
-                                                                                 alt="8238G"/>
-                                                                            <div name='shade' class="Imagetitl">8238G
+                                                                                 url="/comdata/997/201812/20181228105338e217bc.png"
+                                                                                 src="static/img/20181228105338e217bc.png"
+                                                                                 alt="JS004"/>
+                                                                            <div name='shade' class="Imagetitl">JS004
                                                                             </div>
                                                                             <script>$(function () {
                                                                                     addScript('./skinp/modules/ModuleImageGiant/ModuleImage.js', function () {
@@ -1078,9 +1078,9 @@
                                                                         <div class='BodyCenter BodyCenter18482322 clearfix'>
                                                                             <img class="image-animation"
                                                                                  url="/comdata/997/201812/20181228105338a23724.png"
-                                                                                 src="static/img/20181228105338a23724.png?v=2"
-                                                                                 alt="9616B"/>
-                                                                            <div name='shade' class="Imagetitl">9616B
+                                                                                 src="static/img/20181228105338a23724.png"
+                                                                                 alt="JS003"/>
+                                                                            <div name='shade' class="Imagetitl">JS003
                                                                             </div>
                                                                             <script>$(function () {
                                                                                     addScript('./skinp/modules/ModuleImageGiant/ModuleImage.js', function () {
@@ -1098,8 +1098,8 @@
                                                                             <img class="image-animation"
                                                                                  url="/comdata/997/201812/20181228105339baf3e4.png"
                                                                                  src="static/img/20181228105339baf3e4.png?v=2"
-                                                                                 alt="8826"/>
-                                                                            <div name='shade' class="Imagetitl">8826
+                                                                                 alt="JS005"/>
+                                                                            <div name='shade' class="Imagetitl">JS005
                                                                             </div>
                                                                             <script>$(function () {
                                                                                     addScript('./skinp/modules/ModuleImageGiant/ModuleImage.js', function () {
@@ -1788,22 +1788,20 @@
                                                  hasresponsive="1" autohide="0" hideheight="150" hidewidth="760">
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center; line-height: 1.75em;"><span
-                                                                style="color: rgb(255, 255, 255);"><strong>
-                                                    <span
-                                                                        style="font-size: 36px;">Four features
-                                                                        <!-- <spanstyle="font-size: 40px; color: rgb(255, 0, 0);">5</span>&nbsp;</span></strong><strong> -->
-                                                                        <!-- <spanstyle="font-size: 36px;">BIG PROBLEMS</span></strong></span> -->
+                                                                style="color: rgb(255, 255, 255);"><strong><span
+                                                                        style="font-size: 36px;">SOLVE ALUMINUM ALLOY DOORS AND WINDOWS<span
+                                                                            style="font-size: 40px; color: rgb(255, 0, 0);">5</span>&nbsp;</span></strong><strong><span
+                                                                        style="font-size: 36px;">BIG PROBLEMS</span></strong></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 1.75em;">
-                                                    <!-- <span style="font-size: 12px; color: rgb(127, 127, 127);">Four features</span> -->
+                                                    <p style="text-align: center; line-height: 1.75em;"><span
+                                                                style="font-size: 12px; color: rgb(127, 127, 127);">SOLVE ALUMINUM ALLOY DOORS AND WINDOWS 5 BIG PROBLEMS</span>
                                                     </p>
                                                     <p style="text-align: center; line-height: 2em;"><span
                                                                 style="font-size: 12px; color: rgb(255, 255, 255);">
                                   <img src="static/img/20181228153029ff3acd.png"/></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 2em;">
-                                                    <!-- <spanstyle="font-size: 14px; color: rgb(127, 127, 127);">Fully upgraded functions have successfully solved the four pain points of water tightness, heat insulation, sound insulation and safety of aluminium alloy doors and windows. -->
-                                                                </span>
+                                                    <p style="text-align: center; line-height: 2em;"><span
+                                                                style="font-size: 14px; color: rgb(127, 127, 127);">Fully upgraded functions have successfully solved the four pain points of water tightness, heat insulation, sound insulation and safety of aluminium alloy doors and windows.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -1846,7 +1844,7 @@
                                         <div class='BodyCenter BodyCenter18495994 clearfix'>
                                             <div class="imgBox">
                                                 <div class="imgNormalBox">
-                                                    <img class="img-normal" src="static/img/2018122816190157ef45.png?v=2"
+                                                    <img class="img-normal" src="static/img/201812281619179430a3.png"
                                                          alt="图片展示"/>
                                                 </div>
                                                 <div class="imgHoverBox">
@@ -1871,11 +1869,11 @@
                                         <div class='BodyCenter BodyCenter18495997 clearfix'>
                                             <div class="imgBox">
                                                 <div class="imgNormalBox">
-                                                    <img class="img-normal" src="static/img/20181228161901a6ed26.png?v=2"
+                                                    <img class="img-normal" src="static/img/2018122816191774afb1.png"
                                                          alt="图片展示"/>
                                                 </div>
                                                 <div class="imgHoverBox">
-                                                    <img class="img-hover" src="static/img/20181228161901a6ed26.png?v=2"
+                                                    <img class="img-hover" src="static/img/20181228161901a6ed26.png"
                                                          alt="图片展示"/>
                                                 </div>
                                             </div>
@@ -1898,11 +1896,11 @@
                                         <div class='BodyCenter BodyCenter18495999 clearfix'>
                                             <div class="imgBox">
                                                 <div class="imgNormalBox">
-                                                    <img class="img-normal" src="static/img/201812281619017cdded.png?v=2"
+                                                    <img class="img-normal" src="static/img/2018122816191785770f.png"
                                                          alt="图片展示"/>
                                                 </div>
                                                 <div class="imgHoverBox">
-                                                    <img class="img-hover" src="static/img/201812281619017cdded.png?v=2"
+                                                    <img class="img-hover" src="static/img/201812281619017cdded.png"
                                                          alt="图片展示"/>
                                                 </div>
                                             </div>
@@ -1923,11 +1921,11 @@
                                         <div class='BodyCenter BodyCenter18496002 clearfix'>
                                             <div class="imgBox">
                                                 <div class="imgNormalBox">
-                                                    <img class="img-normal" src="static/img/20181228161901f3847b.png?v=2"
+                                                    <img class="img-normal" src="static/img/20181228161917515fbc.png"
                                                          alt="图片展示"/>
                                                 </div>
                                                 <div class="imgHoverBox">
-                                                    <img class="img-hover" src="static/img/20181228161901f3847b.png?v=2"
+                                                    <img class="img-hover" src="static/img/20181228161901f3847b.png"
                                                          alt="图片展示"/>
                                                 </div>
                                             </div>
@@ -2571,7 +2569,7 @@
                                     <div class="ModuleButtonGiant layout-104 layout-color-black module_18499700 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18499700 clearfix'>
-                                            <a href="http://www.keysuntape.com/brand" target="_self"
+                                            <a href="/Content/468221.html" target="_self"
                                                class="moduleButton Radial-Out">See more</a>
                                         </div>
                                     </div>
@@ -2595,8 +2593,8 @@
                                                                  height="60"/>
                                                         </div>
                                                         <p class="digital-num-item"><span class="digital-num"
-                                                                                          data-to="2003"
-                                                                                          data-speed="2003">2003</span>
+                                                                                          data-to="2004"
+                                                                                          data-speed="1500">2004</span>
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
@@ -2608,8 +2606,8 @@
                                                                  height="60"/>
                                                         </div>
                                                         <p class="digital-num-item"><span class="digital-num"
-                                                                                          data-to="30000"
-                                                                                          data-speed="20000">30000</span>
+                                                                                          data-to="4300"
+                                                                                          data-speed="1500">4300</span>
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
@@ -2621,8 +2619,8 @@
                                                                  height="60"/>
                                                         </div>
                                                         <p class="digital-num-item"><span class="digital-num"
-                                                                                          data-to="1000"
-                                                                                          data-speed="1000">1000</span>
+                                                                                          data-to="1200"
+                                                                                          data-speed="1500">1200</span>
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
@@ -2634,8 +2632,8 @@
                                                                  height="60"/>
                                                         </div>
                                                         <p class="digital-num-item"><span class="digital-num"
-                                                                                          data-to="6000"
-                                                                                          data-speed="6000">6000</span>
+                                                                                          data-to="2500"
+                                                                                          data-speed="1500">2500</span>
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
@@ -2864,8 +2862,8 @@
                                                                  height="60"/>
                                                         </div>
                                                         <p class="digital-num-item"><span class="digital-num"
-                                                                                          data-to="2003"
-                                                                                          data-speed="2003">2003</span>
+                                                                                          data-to="2004"
+                                                                                          data-speed="1500">2004</span>
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
@@ -2877,8 +2875,8 @@
                                                                  height="60"/>
                                                         </div>
                                                         <p class="digital-num-item"><span class="digital-num"
-                                                                                          data-to="30000"
-                                                                                          data-speed="30000">30000</span>
+                                                                                          data-to="4300"
+                                                                                          data-speed="1500">4300</span>
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
@@ -2890,8 +2888,8 @@
                                                                  height="60"/>
                                                         </div>
                                                         <p class="digital-num-item"><span class="digital-num"
-                                                                                          data-to="1000"
-                                                                                          data-speed="1000">1000</span>
+                                                                                          data-to="1200"
+                                                                                          data-speed="1500">1200</span>
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
@@ -2903,8 +2901,8 @@
                                                                  height="60"/>
                                                         </div>
                                                         <p class="digital-num-item"><span class="digital-num"
-                                                                                          data-to="6000"
-                                                                                          data-speed="6000">6000</span>
+                                                                                          data-to="2500"
+                                                                                          data-speed="1500">2500</span>
                                                             <sup class="digital-unit">+
                                                             </sup>
                                                         </p>
@@ -3006,18 +3004,18 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p style="text-align: center; line-height: 1.75em;"><span
                                                                 style="color: rgb(75, 115, 176);"><strong><span
-                                                                        style="font-size: 36px;">Construction Site Protection Series </span></strong></span><span
-                                                                style="color: rgb(102, 102, 102);"><strong>
-                                                                <!-- <span style="font-size: 36px;"></span></strong></span> -->
+                                                                        style="font-size: 36px;">News </span></strong></span><span
+                                                                style="color: rgb(102, 102, 102);"><strong><span
+                                                                        style="font-size: 36px;">information</span></strong></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 1.75em;">
-                                                    			<!-- <span style="color: rgb(191, 191, 191); font-size: 12px;">ALUMINUM ALLOY DOORS AND WINDOWS</span> -->
+                                                    <p style="text-align: center; line-height: 1.75em;"><span
+                                                                style="color: rgb(191, 191, 191); font-size: 12px;">ALUMINUM ALLOY DOORS AND WINDOWS</span>
                                                     </p>
                                                     <p style="text-align: center; line-height: 2em;"><span
                                                                 style="color: rgb(191, 191, 191); font-size: 12px;">
                                   <img src="static/img/20181227174316f35d88.png"/></span>
                                                     </p>
-                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(127, 127, 127); font-size: 14px;">It is widely used in indoor and outdoor decoration, protect furniture ,construction and so on</span></p>
+                                                    <p style="text-align: center; line-height: 2em;"><span style="color: rgb(127, 127, 127); font-size: 14px;">Approach everyone who pursues fashion, let them have their own personality, their own home space! I like it, so I enjoy it.</span></p>
                                                 </div>
                                             </div>
                                             <script>changeFontSize($('#module_18501159'));</script>
@@ -3063,7 +3061,7 @@
                                                         <a href="/NewsDetail/887685.html" target='_blank'
                                                            class="clearfix">
                                                             <div class="news-img">
-                                                                <img src="static/img/20181228152027cc675e.png?v=2"
+                                                                <img src="static/img/20181228152027cc675e.png"
                                                                      alt="相约唐山，某某门窗八月钜惠！" title="相约唐山，某某门窗八月钜惠！"
                                                                      class="t-img">
                                                                 <div class="dummy">
@@ -3071,10 +3069,11 @@
                                                             </div>
                                                             <div class="news-tit">
                                                                 <p class="news-title  layout-110-name"><span
-                                                                            class="laout-110-title">general purpose pre-taped masking film for fast paintings in 3 days</span>
+                                                                            class="laout-110-title">相约唐山，某某门窗八月钜惠！</span>
                                                                 </p>
-                                                                <time style=""></time>
-                                                                <p class="news-desc  layout-110-desc "><span>Anti-slide surface   Anti-static   Automatic adsorption  Good adhesiveproperty</span>
+                                                                <time style="">2012-01-14
+                                                                </time>
+                                                                <p class="news-desc  layout-110-desc "><span>某某节能门窗产品，甄选优质进口木材；德国进口多锁点防盗五金系统；德国环保专用门窗漆；双层、三层中空玻璃。门窗采用德国顶尖技术工艺，窗体实现四道密封。保证了其超强的气密性、水密性、抗风压、等性能。华兴铝包木门窗，在保证优越性能的同时，更以奢华的门窗形象，塑造出大气优雅的装饰效果，是别墅豪宅门窗的首选品牌。</span>
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -3085,7 +3084,7 @@
                                                         <a href="/NewsDetail/887674.html" target='_blank'
                                                            class="clearfix">
                                                             <div class="news-img">
-                                                                <img src="static/img/20181228105338e2171bc.png?v=2"
+                                                                <img src="static/img/20181228105338e217bc.png"
                                                                      alt="节能门窗2018岗位技能竞技大赛圆满落幕！"
                                                                      title="节能门窗2018岗位技能竞技大赛圆满落幕！" class="t-img">
                                                                 <div class="dummy">
@@ -3093,10 +3092,11 @@
                                                             </div>
                                                             <div class="news-tit">
                                                                 <p class="news-title  layout-110-name"><span
-                                                                            class="laout-110-title">Pre-Taped Masking Paper Suitable for all paints</span>
+                                                                            class="laout-110-title">节能门窗2018岗位技能竞技大赛圆满落幕！</span>
                                                                 </p>
-                                                                <time style=""></time>
-                                                                <p class="news-desc  layout-110-desc "><span>Good adhesion for almost all surfaces  Smooth craft paper prevents bleed through  Save tine on painting preparation</span>
+                                                                <time style="">2016-08-04
+                                                                </time>
+                                                                <p class="news-desc  layout-110-desc "><span>能工巧匠，敢打硬仗！为了进一步规范和持续提高华兴员工的操作技能、学习技能，激发员工立足岗位成才的积极性，增强员工之间的协作精神，展现一线员工的劳动风采，11月24日，2018华兴节能门窗岗位技能竞技大赛在华兴生产基地正式拉开序幕！</span>
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -3160,7 +3160,7 @@
                                                         <a href="/NewsDetail/887685.html" target='_blank'
                                                            class="clearfix">
                                                             <div class="news-img">
-                                                                <img src="static/img/20181228152027cc675e.png?v=2"
+                                                                <img src="static/img/20181228152027cc675e.png"
                                                                      alt="相约唐山，某某门窗八月钜惠！" title="相约唐山，某某门窗八月钜惠！"
                                                                      class="t-img">
                                                                 <div class="dummy">
@@ -3168,11 +3168,11 @@
                                                             </div>
                                                             <div class="news-tit">
                                                                 <p class="news-title  layout-110-name"><span
-                                                                            class="laout-110-title">general purpose pre-taped masking film for fast paintings in 3 days</span>
+                                                                            class="laout-110-title">相约唐山，某某门窗八月钜惠！</span>
                                                                 </p>
-                                                                <time style="">
+                                                                <time style="">2012-01-14
                                                                 </time>
-                                                                <p class="news-desc  layout-110-desc "><span>Anti-slide surface   Anti-static   Automatic adsorption  Good adhesiveproperty</span>
+                                                                <p class="news-desc  layout-110-desc "><span>某某节能门窗产品，甄选优质进口木材；德国进口多锁点防盗五金系统；德国环保专用门窗漆；双层、三层中空玻璃。门窗采用德国顶尖技术工艺，窗体实现四道密封。保证了其超强的气密性、水密性、抗风压、等性能。华兴铝包木门窗，在保证优越性能的同时，更以奢华的门窗形象，塑造出大气优雅的装饰效果，是别墅豪宅门窗的首选品牌。</span>
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -3183,7 +3183,7 @@
                                                         <a href="/NewsDetail/887674.html" target='_blank'
                                                            class="clearfix">
                                                             <div class="news-img">
-                                                                <img src="static/img/20181228105338e217bc.png?v=2"
+                                                                <img src="static/img/20181228105338e217bc.png"
                                                                      alt="节能门窗2018岗位技能竞技大赛圆满落幕！"
                                                                      title="节能门窗2018岗位技能竞技大赛圆满落幕！" class="t-img">
                                                                 <div class="dummy">
@@ -3191,11 +3191,11 @@
                                                             </div>
                                                             <div class="news-tit">
                                                                 <p class="news-title  layout-110-name"><span
-                                                                            class="laout-110-title">Pre-Taped Masking Paper Suitable for all paints</span>
+                                                                            class="laout-110-title">节能门窗2018岗位技能竞技大赛圆满落幕！</span>
                                                                 </p>
-                                                                <time style="">
+                                                                <time style="">2016-08-04
                                                                 </time>
-                                                                <p class="news-desc  layout-110-desc "><span>Good adhesion for almost all surfaces  Smooth craft paper prevents bleed through  Save tine on painting preparation</span>
+                                                                <p class="news-desc  layout-110-desc "><span>能工巧匠，敢打硬仗！为了进一步规范和持续提高华兴员工的操作技能、学习技能，激发员工立足岗位成才的积极性，增强员工之间的协作精神，展现一线员工的劳动风采，11月24日，2018华兴节能门窗岗位技能竞技大赛在华兴生产基地正式拉开序幕！</span>
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -3206,7 +3206,7 @@
                                                         <a href="/NewsDetail/887677.html" target='_blank'
                                                            class="clearfix">
                                                             <div class="news-img">
-                                                                <img src="static/img/201812281520284f4c8e.png?v=2"
+                                                                <img src="static/img/201812281520284f4c8e.png"
                                                                      alt="【十一限时特惠】感恩公司25周年，买门窗送金币！"
                                                                      title="【十一限时特惠】感恩公司25周年，买门窗送金币！" class="t-img">
                                                                 <div class="dummy">
@@ -3214,10 +3214,11 @@
                                                             </div>
                                                             <div class="news-tit">
                                                                 <p class="news-title  layout-110-name"><span
-                                                                            class="laout-110-title">Heavy grade protection, best choice for construction more than 6 months</span>
+                                                                            class="laout-110-title">【十一限时特惠】感恩公司25周年，买门窗送金币！</span>
                                                                 </p>
-                                                                <time style=""></time>
-                                                                <p class="news-desc  layout-110-desc "><span>High strength protection  Oil-proof varnish  Stand wear and tear</span>
+                                                                <time style="">2018-12-28
+                                                                </time>
+                                                                <p class="news-desc  layout-110-desc "><span>今年某某门窗实业有限公司就25周岁啦！感恩前行，感谢有你，在国庆佳节到来之际，华兴节能门窗特举办购窗送金币活动，来回馈各位新老客户多年来的深情厚爱。</span>
                                                                 </p>
                                                             </div>
                                                         </a>

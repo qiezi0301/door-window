@@ -9,7 +9,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18516496 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18516496 clearfix'>
-                    <img class="image-animation" src="../static/img/20181229203009b2fccf.png" alt="图片展示" />
+                    <img class="image-animation" src="../static/img/11.png?v=2" alt="图片展示" />
                 </div>
             </div>
         </div>
@@ -17,7 +17,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18502845 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18502845 clearfix'>
-                    <img class="image-animation" src="../static/img/20181228171241ad9046.png"  alt="图片展示" />
+                    <img class="image-animation" src="../static/img/11.png?v=2"  alt="图片展示" />
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
                                                     <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
                                                             <a href="javascript:void(0)">
-                                                                <img src="../static/img/20181229104911abc23b.png " alt="" title="" class="img-responsive">
+                                                                <img src="../static/img/20181229104911abc23b.png" alt="" title="" class="img-responsive">
                                                             </a>
                                                             <div
                                                                     id="Sub18507066_1"

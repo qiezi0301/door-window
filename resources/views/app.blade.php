@@ -437,7 +437,7 @@
                                     <div class="ModuleImageGiant layout-101 layout-color- module_18502723 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18502723 clearfix'>
-                                            <img class="image-animation" width="90" src="{{ asset('static/img/201812281907117aef1b.png?v=2') }}" alt="图片展示"/>
+                                            <img class="image-animation" src="{{ asset('static/img/201812281907117aef1b1.png'?v=2) }}" alt="图片展示"/>
                                         </div>
                                     </div>
                                 </div>
@@ -467,7 +467,7 @@
                                     <div class="ModuleImageGiant layout-101 layout-color- module_18502779 clearfix">
                                         <!-- 主体 -->
                                         <div class='BodyCenter BodyCenter18502779 clearfix'>
-                                            <img class="image-animation" width="90" src="{{ asset('static/img/201812281907117aef1b1.png?v=2') }}" alt="图片展示"/>
+                                            <img class="image-animation" src="{{ asset('static/img/201812281907117aef1b.png?v=2') }}" alt="图片展示"/>
                                         </div>
                                     </div>
                                 </div>
@@ -501,13 +501,13 @@
                                                 <div class="ModuleImageTextGiantContent ModuleImageTextContent">
                                                     <p>
                                                         <a href="{{ route('contact') }}" target="_self" style="font-size: 24px; color: rgb(191, 191, 191); text-decoration: none;">
-                                                            <span style="font-size: 24px; color: rgb(191, 191, 191); text-decoration: none;">CONTACT US</span>
+                                                            <span style="font-size: 24px; color: rgb(191, 191, 191); text-decoration: none;">CONKACT US</span>
                                                         </a>
                                                     </p>
                                                     <p><span style="font-size: 12px; color: rgb(191, 191, 191);">China factory</span></p>
                                                     <p><br/></p>
                                                     <p><span style="color: rgb(191, 191, 191);">Tel:0086-20-62633964 62633976 62633939<br/></span></p>
-                                                    <p><span style="color: rgb(191, 191, 191);">E-mail:david@keysuntape.com</span></p>
+                                                    <p><span style="color: rgb(191, 191, 191);">E-mail:david@keysuntaope.com</span></p>
                                                     <p><span style="color: rgb(191, 191, 191);">ADD:NO.38 changzhong road,zhongluotan town, baiyun district,Guangzhou China</span></p>
                                                 </div>
                                             </div>

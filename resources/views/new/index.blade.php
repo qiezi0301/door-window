@@ -10,7 +10,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18516833 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18516833 clearfix'>
-                    <img class="image-animation" src="http://cdn.img-sys.com/comdata/997/201812/20181229203009502a4b.png" url="/comdata/997/201812/20181229203009502a4b.png" alt="图片展示" />
+                    <img class="image-animation" src="../static/img/11.png?v=2" url="/comdata/997/201812/20181229203009502a4b.png" alt="图片展示" />
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
             <div class="ModuleImageGiant layout-101 layout-color- module_18512753 clearfix">
                 <!-- 主体 -->
                 <div class='BodyCenter BodyCenter18512753 clearfix'>
-                    <img class="image-animation" src="http://cdn.img-sys.com/comdata/997/201812/20181229163247f509a3.png" url="/comdata/997/201812/20181229163247f509a3.png" alt="图片展示" />
+                    <img class="image-animation" src="../static/img/11.png?v=2" url="/comdata/997/201812/20181229163247f509a3.png" alt="图片展示" />
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
                                                 <li>
                                                     <a class='menu bcs-item' href='../index.html'>Home</a>
                                                 </li>
-                                                <li><span class='separator'>></span>
+                                                <li><span class='separator'></span>
                                                 </li>
                                                 <li class='lastMenu bcs-item'>News center</li>
                                             </ol>
